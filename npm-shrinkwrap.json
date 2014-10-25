@@ -1,0 +1,1048 @@
+{
+  "name": "EighthBridge",
+  "version": "0.0.1",
+  "dependencies": {
+    "azure": {
+      "version": "0.10.0",
+      "from": "azure@*",
+      "dependencies": {
+        "azure-common": {
+          "version": "0.9.9",
+          "from": "azure-common@0.9.9",
+          "dependencies": {
+            "xml2js": {
+              "version": "0.2.7",
+              "from": "xml2js@0.2.7",
+              "dependencies": {
+                "sax": {
+                  "version": "0.5.2",
+                  "from": "sax@0.5.2"
+                }
+              }
+            },
+            "xmlbuilder": {
+              "version": "0.4.3",
+              "from": "xmlbuilder@0.4.3"
+            },
+            "dateformat": {
+              "version": "1.0.2-1.2.3",
+              "from": "dateformat@1.0.2-1.2.3"
+            },
+            "tunnel": {
+              "version": "0.0.3",
+              "from": "tunnel@~0.0.2"
+            },
+            "validator": {
+              "version": "3.1.0",
+              "from": "validator@~3.1.0"
+            },
+            "envconf": {
+              "version": "0.0.4",
+              "from": "envconf@~0.0.4"
+            },
+            "duplexer": {
+              "version": "0.1.1",
+              "from": "duplexer@~0.1.1"
+            },
+            "through": {
+              "version": "2.3.6",
+              "from": "through@~2.3.4"
+            }
+          }
+        },
+        "azure-mgmt-compute": {
+          "version": "0.9.12",
+          "from": "azure-mgmt-compute@0.9.12"
+        },
+        "azure-mgmt": {
+          "version": "0.9.12",
+          "from": "azure-mgmt@0.9.12"
+        },
+        "azure-mgmt-vnet": {
+          "version": "0.9.12",
+          "from": "azure-mgmt-vnet@0.9.12"
+        },
+        "azure-mgmt-sb": {
+          "version": "0.9.12",
+          "from": "azure-mgmt-sb@0.9.12"
+        },
+        "azure-mgmt-sql": {
+          "version": "0.9.12",
+          "from": "azure-mgmt-sql@0.9.12"
+        },
+        "azure-mgmt-storage": {
+          "version": "0.9.12",
+          "from": "azure-mgmt-storage@0.9.12"
+        },
+        "azure-mgmt-website": {
+          "version": "0.9.12",
+          "from": "azure-mgmt-website@0.9.12",
+          "dependencies": {
+            "moment": {
+              "version": "2.6.0",
+              "from": "moment@2.6.0"
+            }
+          }
+        },
+        "azure-rm-website": {
+          "version": "0.9.0-pre.6",
+          "from": "azure-rm-website@0.9.0-pre.6",
+          "dependencies": {
+            "moment": {
+              "version": "2.6.0",
+              "from": "moment@2.6.0"
+            }
+          }
+        },
+        "azure-mgmt-subscription": {
+          "version": "0.9.12",
+          "from": "azure-mgmt-subscription@0.9.12"
+        },
+        "azure-monitoring": {
+          "version": "0.9.1-pre.12",
+          "from": "azure-monitoring@0.9.1-pre.12",
+          "dependencies": {
+            "moment": {
+              "version": "2.6.0",
+              "from": "moment@2.6.0"
+            }
+          }
+        },
+        "azure-scheduler": {
+          "version": "0.9.1-pre.12",
+          "from": "azure-scheduler@0.9.1-pre.12",
+          "dependencies": {
+            "moment": {
+              "version": "2.6.0",
+              "from": "moment@2.6.0"
+            }
+          }
+        },
+        "azure-mgmt-scheduler": {
+          "version": "0.9.1-pre.12",
+          "from": "azure-mgmt-scheduler@0.9.1-pre.12"
+        },
+        "azure-mgmt-resource": {
+          "version": "2.0.0-pre.12",
+          "from": "azure-mgmt-resource@2.0.0-pre.12",
+          "resolved": "https://registry.npmjs.org/azure-mgmt-resource/-/azure-mgmt-resource-2.0.0-pre.12.tgz"
+        },
+        "azure-gallery": {
+          "version": "2.0.0-pre.11",
+          "from": "azure-gallery@2.0.0-pre.11",
+          "resolved": "https://registry.npmjs.org/azure-gallery/-/azure-gallery-2.0.0-pre.11.tgz"
+        },
+        "azure-mgmt-hdinsight": {
+          "version": "0.9.12",
+          "from": "azure-mgmt-hdinsight@0.9.12"
+        },
+        "azure-mgmt-authorization": {
+          "version": "0.9.0-pre.2",
+          "from": "azure-mgmt-authorization@0.9.0-pre.2"
+        },
+        "azure-sb": {
+          "version": "0.9.13",
+          "from": "azure-sb@0.9.13",
+          "dependencies": {
+            "wns": {
+              "version": "0.5.3",
+              "from": "wns@~0.5.3"
+            },
+            "mpns": {
+              "version": "2.0.1",
+              "from": "mpns@~2.0.0"
+            }
+          }
+        },
+        "mime": {
+          "version": "1.2.11",
+          "from": "mime@~1.2.4"
+        },
+        "underscore": {
+          "version": "1.4.4",
+          "from": "underscore@~1.4.3"
+        },
+        "request": {
+          "version": "2.27.0",
+          "from": "request@2.27.0",
+          "dependencies": {
+            "qs": {
+              "version": "0.6.6",
+              "from": "qs@~0.6.0"
+            },
+            "json-stringify-safe": {
+              "version": "5.0.0",
+              "from": "json-stringify-safe@~5.0.0"
+            },
+            "forever-agent": {
+              "version": "0.5.2",
+              "from": "forever-agent@~0.5.0"
+            },
+            "tunnel-agent": {
+              "version": "0.3.0",
+              "from": "tunnel-agent@~0.3.0"
+            },
+            "http-signature": {
+              "version": "0.10.0",
+              "from": "http-signature@~0.10.0",
+              "dependencies": {
+                "assert-plus": {
+                  "version": "0.1.2",
+                  "from": "assert-plus@0.1.2"
+                },
+                "asn1": {
+                  "version": "0.1.11",
+                  "from": "asn1@0.1.11"
+                },
+                "ctype": {
+                  "version": "0.5.2",
+                  "from": "ctype@0.5.2"
+                }
+              }
+            },
+            "hawk": {
+              "version": "1.0.0",
+              "from": "hawk@~1.0.0",
+              "dependencies": {
+                "hoek": {
+                  "version": "0.9.1",
+                  "from": "hoek@0.9.x"
+                },
+                "boom": {
+                  "version": "0.4.2",
+                  "from": "boom@0.4.x"
+                },
+                "cryptiles": {
+                  "version": "0.2.2",
+                  "from": "cryptiles@0.2.x"
+                },
+                "sntp": {
+                  "version": "0.2.4",
+                  "from": "sntp@0.2.x"
+                }
+              }
+            },
+            "aws-sign": {
+              "version": "0.3.0",
+              "from": "aws-sign@~0.3.0"
+            },
+            "oauth-sign": {
+              "version": "0.3.0",
+              "from": "oauth-sign@~0.3.0"
+            },
+            "cookie-jar": {
+              "version": "0.3.0",
+              "from": "cookie-jar@~0.3.0"
+            },
+            "node-uuid": {
+              "version": "1.4.1",
+              "from": "node-uuid@~1.4.0"
+            },
+            "form-data": {
+              "version": "0.1.4",
+              "from": "form-data@~0.1.0",
+              "dependencies": {
+                "combined-stream": {
+                  "version": "0.0.5",
+                  "from": "combined-stream@~0.0.4",
+                  "dependencies": {
+                    "delayed-stream": {
+                      "version": "0.0.5",
+                      "from": "delayed-stream@0.0.5"
+                    }
+                  }
+                },
+                "async": {
+                  "version": "0.9.0",
+                  "from": "async@~0.9.0"
+                }
+              }
+            }
+          }
+        },
+        "node-uuid": {
+          "version": "1.2.0",
+          "from": "node-uuid@~1.2.0"
+        },
+        "azure-storage": {
+          "version": "0.3.3",
+          "from": "azure-storage@0.3.3",
+          "dependencies": {
+            "xml2js": {
+              "version": "0.2.7",
+              "from": "xml2js@0.2.7",
+              "dependencies": {
+                "sax": {
+                  "version": "0.5.2",
+                  "from": "sax@0.5.2"
+                }
+              }
+            },
+            "xmlbuilder": {
+              "version": "0.4.3",
+              "from": "xmlbuilder@0.4.3"
+            },
+            "validator": {
+              "version": "3.1.0",
+              "from": "validator@~3.1.0"
+            },
+            "node-uuid": {
+              "version": "1.4.1",
+              "from": "node-uuid@~1.4.0"
+            },
+            "extend": {
+              "version": "1.2.1",
+              "from": "extend@~1.2.1"
+            }
+          }
+        }
+      }
+    },
+    "bcryptjs": {
+      "version": "2.1.0",
+      "from": "bcryptjs@*"
+    },
+    "body-parser": {
+      "version": "1.9.1",
+      "from": "body-parser@*",
+      "dependencies": {
+        "bytes": {
+          "version": "1.0.0",
+          "from": "bytes@1.0.0"
+        },
+        "depd": {
+          "version": "1.0.0",
+          "from": "depd@~1.0.0"
+        },
+        "iconv-lite": {
+          "version": "0.4.4",
+          "from": "iconv-lite@0.4.4"
+        },
+        "media-typer": {
+          "version": "0.3.0",
+          "from": "media-typer@0.3.0"
+        },
+        "on-finished": {
+          "version": "2.1.1",
+          "from": "on-finished@~2.1.1",
+          "dependencies": {
+            "ee-first": {
+              "version": "1.1.0",
+              "from": "ee-first@1.1.0"
+            }
+          }
+        },
+        "qs": {
+          "version": "2.3.0",
+          "from": "qs@2.3.0"
+        },
+        "raw-body": {
+          "version": "1.3.0",
+          "from": "raw-body@1.3.0"
+        },
+        "type-is": {
+          "version": "1.5.2",
+          "from": "type-is@~1.5.2",
+          "dependencies": {
+            "mime-types": {
+              "version": "2.0.2",
+              "from": "mime-types@~2.0.2",
+              "dependencies": {
+                "mime-db": {
+                  "version": "1.1.2",
+                  "from": "mime-db@~1.1.0"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "compression": {
+      "version": "1.2.0",
+      "from": "compression@*",
+      "dependencies": {
+        "accepts": {
+          "version": "1.1.2",
+          "from": "accepts@~1.1.2",
+          "dependencies": {
+            "mime-types": {
+              "version": "2.0.2",
+              "from": "mime-types@~2.0.2",
+              "dependencies": {
+                "mime-db": {
+                  "version": "1.1.2",
+                  "from": "mime-db@~1.1.0"
+                }
+              }
+            }
+          }
+        },
+        "bytes": {
+          "version": "1.0.0",
+          "from": "bytes@1.0.0"
+        },
+        "compressible": {
+          "version": "2.0.1",
+          "from": "compressible@~2.0.1",
+          "dependencies": {
+            "mime-db": {
+              "version": "1.1.2",
+              "from": "mime-db@1.x"
+            }
+          }
+        },
+        "debug": {
+          "version": "2.1.0",
+          "from": "debug@~2.1.0",
+          "dependencies": {
+            "ms": {
+              "version": "0.6.2",
+              "from": "ms@0.6.2"
+            }
+          }
+        },
+        "on-headers": {
+          "version": "1.0.0",
+          "from": "on-headers@~1.0.0"
+        },
+        "vary": {
+          "version": "1.0.0",
+          "from": "vary@~1.0.0"
+        }
+      }
+    },
+    "cookie-parser": {
+      "version": "1.3.3",
+      "from": "cookie-parser@*",
+      "dependencies": {
+        "cookie": {
+          "version": "0.1.2",
+          "from": "cookie@0.1.2"
+        },
+        "cookie-signature": {
+          "version": "1.0.5",
+          "from": "cookie-signature@1.0.5"
+        }
+      }
+    },
+    "cookie-session": {
+      "version": "1.0.2",
+      "from": "cookie-session@*",
+      "dependencies": {
+        "cookies": {
+          "version": "0.4.1",
+          "from": "cookies@~0.4.0",
+          "dependencies": {
+            "keygrip": {
+              "version": "1.0.1",
+              "from": "keygrip@~1.0.0"
+            }
+          }
+        },
+        "debug": {
+          "version": "2.1.0",
+          "from": "debug@~2.1.0",
+          "dependencies": {
+            "ms": {
+              "version": "0.6.2",
+              "from": "ms@0.6.2"
+            }
+          }
+        }
+      }
+    },
+    "express": {
+      "version": "4.10.0",
+      "from": "express@4.x",
+      "dependencies": {
+        "accepts": {
+          "version": "1.1.2",
+          "from": "accepts@~1.1.2",
+          "dependencies": {
+            "mime-types": {
+              "version": "2.0.2",
+              "from": "mime-types@~2.0.2",
+              "dependencies": {
+                "mime-db": {
+                  "version": "1.1.2",
+                  "from": "mime-db@~1.1.0"
+                }
+              }
+            }
+          }
+        },
+        "content-disposition": {
+          "version": "0.5.0",
+          "from": "content-disposition@0.5.0"
+        },
+        "cookie-signature": {
+          "version": "1.0.5",
+          "from": "cookie-signature@1.0.5"
+        },
+        "debug": {
+          "version": "2.1.0",
+          "from": "debug@~2.1.0",
+          "dependencies": {
+            "ms": {
+              "version": "0.6.2",
+              "from": "ms@0.6.2"
+            }
+          }
+        },
+        "depd": {
+          "version": "1.0.0",
+          "from": "depd@~1.0.0"
+        },
+        "escape-html": {
+          "version": "1.0.1",
+          "from": "escape-html@1.0.1"
+        },
+        "etag": {
+          "version": "1.5.0",
+          "from": "etag@~1.5.0",
+          "dependencies": {
+            "crc": {
+              "version": "3.0.0",
+              "from": "crc@3.0.0"
+            }
+          }
+        },
+        "finalhandler": {
+          "version": "0.3.2",
+          "from": "finalhandler@0.3.2"
+        },
+        "fresh": {
+          "version": "0.2.4",
+          "from": "fresh@0.2.4"
+        },
+        "media-typer": {
+          "version": "0.3.0",
+          "from": "media-typer@0.3.0"
+        },
+        "methods": {
+          "version": "1.1.0",
+          "from": "methods@1.1.0"
+        },
+        "on-finished": {
+          "version": "2.1.1",
+          "from": "on-finished@~2.1.1",
+          "dependencies": {
+            "ee-first": {
+              "version": "1.1.0",
+              "from": "ee-first@1.1.0"
+            }
+          }
+        },
+        "parseurl": {
+          "version": "1.3.0",
+          "from": "parseurl@~1.3.0"
+        },
+        "path-to-regexp": {
+          "version": "0.1.3",
+          "from": "path-to-regexp@0.1.3"
+        },
+        "proxy-addr": {
+          "version": "1.0.3",
+          "from": "proxy-addr@~1.0.3",
+          "dependencies": {
+            "forwarded": {
+              "version": "0.1.0",
+              "from": "forwarded@~0.1.0"
+            },
+            "ipaddr.js": {
+              "version": "0.1.3",
+              "from": "ipaddr.js@0.1.3"
+            }
+          }
+        },
+        "qs": {
+          "version": "2.3.0",
+          "from": "qs@2.3.0"
+        },
+        "range-parser": {
+          "version": "1.0.2",
+          "from": "range-parser@~1.0.2"
+        },
+        "send": {
+          "version": "0.10.1",
+          "from": "send@0.10.1",
+          "dependencies": {
+            "destroy": {
+              "version": "1.0.3",
+              "from": "destroy@1.0.3"
+            },
+            "mime": {
+              "version": "1.2.11",
+              "from": "mime@~1.2.11"
+            },
+            "ms": {
+              "version": "0.6.2",
+              "from": "ms@0.6.2"
+            }
+          }
+        },
+        "serve-static": {
+          "version": "1.7.1",
+          "from": "serve-static@~1.7.1"
+        },
+        "type-is": {
+          "version": "1.5.2",
+          "from": "type-is@~1.5.2",
+          "dependencies": {
+            "mime-types": {
+              "version": "2.0.2",
+              "from": "mime-types@~2.0.2",
+              "dependencies": {
+                "mime-db": {
+                  "version": "1.1.2",
+                  "from": "mime-db@~1.1.0"
+                }
+              }
+            }
+          }
+        },
+        "vary": {
+          "version": "1.0.0",
+          "from": "vary@~1.0.0"
+        },
+        "cookie": {
+          "version": "0.1.2",
+          "from": "cookie@0.1.2"
+        },
+        "merge-descriptors": {
+          "version": "0.0.2",
+          "from": "merge-descriptors@0.0.2"
+        },
+        "utils-merge": {
+          "version": "1.0.0",
+          "from": "utils-merge@1.0.0"
+        }
+      }
+    },
+    "morgan": {
+      "version": "1.4.1",
+      "from": "morgan@*",
+      "dependencies": {
+        "basic-auth": {
+          "version": "1.0.0",
+          "from": "basic-auth@1.0.0"
+        },
+        "debug": {
+          "version": "2.1.0",
+          "from": "debug@~2.1.0",
+          "dependencies": {
+            "ms": {
+              "version": "0.6.2",
+              "from": "ms@0.6.2"
+            }
+          }
+        },
+        "depd": {
+          "version": "1.0.0",
+          "from": "depd@~1.0.0"
+        },
+        "on-finished": {
+          "version": "2.1.1",
+          "from": "on-finished@~2.1.1",
+          "dependencies": {
+            "ee-first": {
+              "version": "1.1.0",
+              "from": "ee-first@1.1.0"
+            }
+          }
+        }
+      }
+    },
+    "negotiator": {
+      "version": "0.4.9",
+      "from": "negotiator@*"
+    },
+    "nodemailer": {
+      "version": "1.3.0",
+      "from": "nodemailer@*",
+      "dependencies": {
+        "buildmail": {
+          "version": "1.2.0",
+          "from": "buildmail@^1.2.0",
+          "dependencies": {
+            "addressparser": {
+              "version": "0.3.1",
+              "from": "addressparser@^0.3.1"
+            },
+            "libbase64": {
+              "version": "0.1.0",
+              "from": "libbase64@^0.1.0"
+            },
+            "libqp": {
+              "version": "0.1.1",
+              "from": "libqp@^0.1.1"
+            }
+          }
+        },
+        "hyperquest": {
+          "version": "0.3.0",
+          "from": "hyperquest@^0.3.0",
+          "dependencies": {
+            "through": {
+              "version": "2.2.7",
+              "from": "through@~2.2.0"
+            },
+            "duplexer": {
+              "version": "0.1.1",
+              "from": "duplexer@~0.1.0"
+            }
+          }
+        },
+        "libmime": {
+          "version": "0.1.6",
+          "from": "libmime@^0.1.5",
+          "dependencies": {
+            "iconv-lite": {
+              "version": "0.4.4",
+              "from": "iconv-lite@^0.4.4"
+            },
+            "libbase64": {
+              "version": "0.1.0",
+              "from": "libbase64@^0.1.0"
+            },
+            "libqp": {
+              "version": "0.1.1",
+              "from": "libqp@^0.1.1"
+            }
+          }
+        },
+        "nodemailer-direct-transport": {
+          "version": "1.0.0",
+          "from": "nodemailer-direct-transport@^1.0.0",
+          "dependencies": {
+            "smtp-connection": {
+              "version": "0.1.7",
+              "from": "smtp-connection@^0.1.5"
+            }
+          }
+        },
+        "nodemailer-smtp-transport": {
+          "version": "0.1.13",
+          "from": "nodemailer-smtp-transport@^0.1.12",
+          "dependencies": {
+            "nodemailer-wellknown": {
+              "version": "0.1.2",
+              "from": "nodemailer-wellknown@^0.1.1"
+            },
+            "smtp-connection": {
+              "version": "1.0.2",
+              "from": "smtp-connection@^1.0.0"
+            }
+          }
+        }
+      }
+    },
+    "nodemon": {
+      "version": "1.2.1",
+      "from": "nodemon@*",
+      "dependencies": {
+        "update-notifier": {
+          "version": "0.1.10",
+          "from": "update-notifier@~0.1.8",
+          "dependencies": {
+            "chalk": {
+              "version": "0.4.0",
+              "from": "chalk@^0.4.0",
+              "dependencies": {
+                "has-color": {
+                  "version": "0.1.7",
+                  "from": "has-color@~0.1.0"
+                },
+                "ansi-styles": {
+                  "version": "1.0.0",
+                  "from": "ansi-styles@~1.0.0"
+                },
+                "strip-ansi": {
+                  "version": "0.1.1",
+                  "from": "strip-ansi@~0.1.0"
+                }
+              }
+            },
+            "configstore": {
+              "version": "0.3.1",
+              "from": "configstore@^0.3.0",
+              "dependencies": {
+                "graceful-fs": {
+                  "version": "3.0.4",
+                  "from": "graceful-fs@~3.0.1"
+                },
+                "js-yaml": {
+                  "version": "3.0.2",
+                  "from": "js-yaml@~3.0.1",
+                  "dependencies": {
+                    "argparse": {
+                      "version": "0.1.15",
+                      "from": "argparse@~ 0.1.11",
+                      "dependencies": {
+                        "underscore": {
+                          "version": "1.4.4",
+                          "from": "underscore@~1.4.3"
+                        },
+                        "underscore.string": {
+                          "version": "2.3.3",
+                          "from": "underscore.string@~2.3.1"
+                        }
+                      }
+                    },
+                    "esprima": {
+                      "version": "1.0.4",
+                      "from": "esprima@~ 1.0.2"
+                    }
+                  }
+                },
+                "mkdirp": {
+                  "version": "0.5.0",
+                  "from": "mkdirp@~0.5.0",
+                  "dependencies": {
+                    "minimist": {
+                      "version": "0.0.8",
+                      "from": "minimist@0.0.8"
+                    }
+                  }
+                },
+                "object-assign": {
+                  "version": "0.3.1",
+                  "from": "object-assign@~0.3.1"
+                },
+                "osenv": {
+                  "version": "0.1.0",
+                  "from": "osenv@~0.1.0"
+                },
+                "uuid": {
+                  "version": "1.4.2",
+                  "from": "uuid@~1.4.1"
+                }
+              }
+            },
+            "semver": {
+              "version": "2.3.2",
+              "from": "semver@^2.3.0"
+            }
+          }
+        },
+        "minimatch": {
+          "version": "0.3.0",
+          "from": "minimatch@~0.3.0",
+          "dependencies": {
+            "lru-cache": {
+              "version": "2.5.0",
+              "from": "lru-cache@2"
+            },
+            "sigmund": {
+              "version": "1.0.0",
+              "from": "sigmund@~1.0.0"
+            }
+          }
+        },
+        "ps-tree": {
+          "version": "0.0.3",
+          "from": "ps-tree@~0.0.3",
+          "dependencies": {
+            "event-stream": {
+              "version": "0.5.3",
+              "from": "event-stream@~0.5",
+              "dependencies": {
+                "optimist": {
+                  "version": "0.2.8",
+                  "from": "optimist@0.2",
+                  "dependencies": {
+                    "wordwrap": {
+                      "version": "0.0.2",
+                      "from": "wordwrap@>=0.0.1 <0.1.0"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "nodetime": {
+      "version": "0.8.15",
+      "from": "nodetime@*",
+      "dependencies": {
+        "nodetime-native": {
+          "version": "0.1.0",
+          "from": "nodetime-native@0.1.0",
+          "dependencies": {
+            "bindings": {
+              "version": "1.2.1",
+              "from": "bindings@*"
+            }
+          }
+        }
+      }
+    },
+    "q": {
+      "version": "1.0.1",
+      "from": "q@*"
+    },
+    "querystring": {
+      "version": "0.2.0",
+      "from": "querystring@*"
+    },
+    "request": {
+      "version": "2.46.0",
+      "from": "request@*",
+      "dependencies": {
+        "bl": {
+          "version": "0.9.3",
+          "from": "bl@~0.9.0",
+          "dependencies": {
+            "readable-stream": {
+              "version": "1.0.33",
+              "from": "readable-stream@~1.0.26",
+              "dependencies": {
+                "core-util-is": {
+                  "version": "1.0.1",
+                  "from": "core-util-is@~1.0.0"
+                },
+                "isarray": {
+                  "version": "0.0.1",
+                  "from": "isarray@0.0.1"
+                },
+                "string_decoder": {
+                  "version": "0.10.31",
+                  "from": "string_decoder@~0.10.x"
+                },
+                "inherits": {
+                  "version": "2.0.1",
+                  "from": "inherits@~2.0.1"
+                }
+              }
+            }
+          }
+        },
+        "caseless": {
+          "version": "0.6.0",
+          "from": "caseless@~0.6.0"
+        },
+        "forever-agent": {
+          "version": "0.5.2",
+          "from": "forever-agent@~0.5.0"
+        },
+        "form-data": {
+          "version": "0.1.4",
+          "from": "form-data@~0.1.0",
+          "dependencies": {
+            "combined-stream": {
+              "version": "0.0.5",
+              "from": "combined-stream@~0.0.4",
+              "dependencies": {
+                "delayed-stream": {
+                  "version": "0.0.5",
+                  "from": "delayed-stream@0.0.5"
+                }
+              }
+            },
+            "mime": {
+              "version": "1.2.11",
+              "from": "mime@~1.2.11"
+            },
+            "async": {
+              "version": "0.9.0",
+              "from": "async@~0.9.0"
+            }
+          }
+        },
+        "json-stringify-safe": {
+          "version": "5.0.0",
+          "from": "json-stringify-safe@~5.0.0"
+        },
+        "mime-types": {
+          "version": "1.0.2",
+          "from": "mime-types@~1.0.1"
+        },
+        "node-uuid": {
+          "version": "1.4.1",
+          "from": "node-uuid@~1.4.0"
+        },
+        "qs": {
+          "version": "1.2.2",
+          "from": "qs@~1.2.0"
+        },
+        "tunnel-agent": {
+          "version": "0.4.0",
+          "from": "tunnel-agent@~0.4.0"
+        },
+        "tough-cookie": {
+          "version": "0.12.1",
+          "from": "tough-cookie@>=0.12.0",
+          "dependencies": {
+            "punycode": {
+              "version": "1.3.2",
+              "from": "punycode@>=0.2.0"
+            }
+          }
+        },
+        "http-signature": {
+          "version": "0.10.0",
+          "from": "http-signature@~0.10.0",
+          "dependencies": {
+            "assert-plus": {
+              "version": "0.1.2",
+              "from": "assert-plus@0.1.2"
+            },
+            "asn1": {
+              "version": "0.1.11",
+              "from": "asn1@0.1.11"
+            },
+            "ctype": {
+              "version": "0.5.2",
+              "from": "ctype@0.5.2"
+            }
+          }
+        },
+        "oauth-sign": {
+          "version": "0.4.0",
+          "from": "oauth-sign@~0.4.0"
+        },
+        "hawk": {
+          "version": "1.1.1",
+          "from": "hawk@1.1.1",
+          "dependencies": {
+            "hoek": {
+              "version": "0.9.1",
+              "from": "hoek@0.9.x"
+            },
+            "boom": {
+              "version": "0.4.2",
+              "from": "boom@0.4.x"
+            },
+            "cryptiles": {
+              "version": "0.2.2",
+              "from": "cryptiles@0.2.x"
+            },
+            "sntp": {
+              "version": "0.2.4",
+              "from": "sntp@0.2.x"
+            }
+          }
+        },
+        "aws-sign2": {
+          "version": "0.5.0",
+          "from": "aws-sign2@~0.5.0"
+        },
+        "stringstream": {
+          "version": "0.0.4",
+          "from": "stringstream@~0.0.4"
+        }
+      }
+    },
+    "underscore": {
+      "version": "1.7.0",
+      "from": "underscore@*"
+    },
+    "xregexp": {
+      "version": "2.0.0",
+      "from": "xregexp@*"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "EighthBridge",
+  "description": "The Web App for EighthBridge",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "azure": "*",
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "compression": "*",
+    "cookie-parser": "*",
+    "cookie-session": "*",
+    "express": "4.x",
+    "querystring": "*",
+    "underscore": "*",
+    "morgan": "*",
+    "negotiator": "*",
+    "nodemailer": "*",
+    "nodemon": "*",
+    "nodetime": "*",
+    "q": "*",
+    "request": "*",
+    "xregexp": "*"
+  },
+  "engines": {
+    "node": "*",
+    "npm": "1.x.x"
+  },
+  "devDependencies": {
+    "assert": "*"
+  }
+}
