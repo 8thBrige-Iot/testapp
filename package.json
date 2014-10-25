@@ -2,8 +2,8 @@
   "name": "EighthBridge",
   "description": "The Web App for EighthBridge",
   "version": "0.0.1",
-  "private": true,
   "dependencies": {
+    "arangojs": "*",
     "azure": "*",
     "bcryptjs": "*",
     "body-parser": "*",
