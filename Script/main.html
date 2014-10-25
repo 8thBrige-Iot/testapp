@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <title>For Testing</title>
+    <meta name="description" content="Webapp for space-time social interactions ">
+    <meta name="keywords" content="HTML5,CSS,JavaScript,jquery">
+    <meta name="author" content="Kevin Oluoch">
+    <meta charset="UTF-8">
+    <!--Load Script and Stylesheet -->
+    <link type="text/css" rel="stylesheet" href="Script/mystyle.scss">
+    <script type="text/javascript" src="Script/keyFindsValuePair.js"></script>
+
+    <!--Add this line below which will add the jquery library-->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <!-- END - jQuery Reference -->
+    <script>
+    <!--jquery.shorten.1.0.js is a plugin for showing more or less text-->
+    <script type="text/javascript"
+            src="http://viralpatel.net/blogs/demo/jquery/jquery.shorten.1.0.js"></script>
+
+    <!--To implement later, if by any chance the jQuery we are trying to import is unavailable, load from server -->
+    <!--
+    <script type='text/javascript'>
+            if (typeof jQuery == 'undefined') {
+                document.write(unescaped("%3Cscript
+                src='/Script/jquery-1.9.1.min' type='text/javascript' %3E%3C/script%3E"));
+            }//]]>
+        -->
+
+
+
+    <!--
+        <script type="text/javascript">
+                $(document).ready(function() {
+
+                    $(".comment").shorten();
+
+                });
+        </script>
+        -->
+
+
+</head>
+
+<body>
+    <script>
+        jQuery.get('t.txt', function(data) {
+            alert(data);
+            //process text file line by line
+            $('#div').html(data.replace('n','<br />'));
+            document.getElementById("demo").innerHTML = data;
+        });
+
+        <p id="demo">This is a demonstration.</p>
+    </script>
+
+    <script type="text/javascript">
+        <!--http://techslides.com/how-to-parse-and-search-json-in-javascript/ -->
+            // split the string array into corresponding constituent
+                function SplitFxn(compoundStr) {
+                    var parts = compoundStr.split("/");
+                    return parts
+                }
+
+        var ACTIVITIES =
+        {"games":
+                [
+                    {"Definition1":
+                            [
+                                {"SPORTS" : "1SPORTS",val:[1,2]},
+                                {"PHYSICAL SPORTS" : "1SPORTS/2PHYSICAL SPORTS"},
+                                {"MENTAL SPORTS" : "1SPORTS/2MENTAL SPORTS"},
+                                {"COMPUTER GAMES" : "1SPORTS/2COMPUTER GAMES"},
+                                {"more" : "lon200/lat100/1SPORTS/2PHYSICAL GAMES/3more/4and more"}
+                            ]
+                    },
+                    {"Definition2":
+                            [
+                                {"1SPORTS" : "1SPORTS"},
+                                {"2name" : "2article"}
+                            ]
+                    }
+                ]
+        };
+
+/*
+        function getValuesCommunity(obj, key) {
+            var community = [];
+            for (var i in obj) {
+                if (!obj.hasOwnProperty(i)) continue;
+                if (typeof obj[i] == 'object') {
+                    community = community.concat(getValuesCommunity(obj[i], key));
+                } else if (i == key) {
+                    community.push(obj[i]);
+                }
+            }
+
+            return community
+        }
+        */
+
+
+
+        http://stackoverflow.com/questions/313893/how-to-measure-time-taken-by-a-function-to-execute
+              //var start = window.performance.now();
+
+                 //var partition=getValuesCommunity(ACTIVITIES, "more");
+                    function myFunction() {
+                        document.getElementById("loadJSON").innerHTML = getValuesCommunity(ACTIVITIES, "more");
+                    }
+
+        function myFunction2() {
+            location.reload();
+        }
+                var end = window.performance.now();
+            var dur = end - start;
+        alert('It took ' + dur + ' ms.');
+
+//alert (partition);
+
+        //split the string array into corresponding constituent
+       /*
+                function getValuesCommunity(complexString){
+                    //function code should be written here
+                    alert(complexString)
+                    var com = complexString[0];
+                    var com = com.split("/");
+                    return simpleStrings
+                }
+        */
+
+    </script>
+    <div>
+        <button onclick="myFunction()">Load and Read JSON file</button>
+        <p id="loadJSON"></p>
+        <button onclick="myFunction2()">Offload page</button>
+    </div>
+
+/*TO DO
+    1)load the json file
+    2) iterate over  its keys displaying values
+    2a) if first character of key x==1 (significant), iterate over all its attributes,
+    2b) if  1st character of attribute y==1 connect as follows
+
+    id=key "dataKey": "0","type": "geo","geoJson": "false","fieldsLoc": "[]","metaData":
+*/
+
+    </body>
+</html>

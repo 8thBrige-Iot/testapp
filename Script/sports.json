@@ -1,0 +1,1486 @@
+http://en.wikipedia.org/wiki/List_of_sports
+
+ACTIVITIES = 
+{"games":
+    [
+       {"Definition1":
+         [
+           {"SPORTS" : "SPORTS"},
+           {"PHYSICAL SPORTS" : "SPORTS/PHYSICAL SPORTS"},
+           {"MENTAL SPORTS" : "SPORTS/MENTAL SPORTS"},
+           {"COMPUTER GAMES" : "SPORTS/COMPUTER GAMES"}, 
+           {"AIR SPORTS": "SPORTS/PHYSICAL SPORTS/AIR SPORTS"},
+           {"ARCHERY": "SPORTS/PHYSICAL SPORTS/ARCHERY"},
+           {"BALL OVER NET GAMES": "SPORTS/PHYSICAL SPORTS/BALL OVER NET GAMES"},           
+           {"BASKETBALL FAMILY": "SPORTS/PHYSICAL SPORTS/BASKETBALL FAMILY"},
+           {"BAT-AND-BALL (SAFE HAVEN)": "SPORTS/PHYSICAL SPORTS/BAT-AND-BALL (SAFE HAVEN)"},
+           {"BALL OVER NET GAMES": "SPORTS/PHYSICAL SPORTS/BALL OVER NET GAMES"},           
+           {"BATON TWIRLING": "SPORTS/PHYSICAL SPORTS/BATON TWIRLING"},
+           {"BOARD SPORTS": "SPORTS/PHYSICAL SPORTS/BOARD SPORTS"},
+           {"CATCH GAMES": "SPORTS/PHYSICAL SPORTS/CATCH GAMES"}, 
+           {"CLIMBING": "SPORTS/PHYSICAL SPORTS/CLIMBING"},
+           {"CYCLING": "SPORTS/PHYSICAL SPORTS/CYCLING"},
+           {"COMBAT SPORTS: WRESTLING AND MARTIAL ARTS": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS"},
+           {"CUE SPORTS": "SPORTS/PHYSICAL SPORTS/CUE SPORTS"},
+           {"DANCE": "SPORTS/PHYSICAL SPORTS/DANCE"},
+           {"EQUINE SPORTS": "SPORTS/PHYSICAL SPORTS/EQUINE SPORTS"},
+           {"FISHING": "SPORTS/PHYSICAL SPORTS/FISHING"},
+           {"FLYING DISC SPORTS": "SPORTS/PHYSICAL SPORTS/FLYING DISC SPORTS"},
+           {"FOOTBALL FAMILY": "SPORTS/PHYSICAL SPORTS/FOOTBALL FAMILY"},
+           {"GOLF": "SPORTS/PHYSICAL SPORTS/GOLF"},
+           {"GYMNASTICS": "SPORTS/PHYSICAL SPORTS/GYMNASTICS"},
+           {"HANDBALL FAMILY": "SPORTS/PHYSICAL SPORTS/HANDBALL FAMILY"},
+           {"HUNTING": "SPORTS/PHYSICAL SPORTS/HUNTING"},
+           {"ICE SPORTS": "SPORTS/PHYSICAL SPORTS/ICE SPORTS"},
+           {"MIXED DISCIPLINE": "SPORTS/PHYSICAL SPORTS/MIXED DISCIPLINE"},
+           {"ORIENTEERING FAMILY": "SPORTS/PHYSICAL SPORTS/ORIENTEERING FAMILY"},
+           {"PILOTA FAMILY": "SPORTS/PHYSICAL SPORTS/PILOTA FAMILY"},
+           {"RACQUET (OR RACKET) SPORTS": "SPORTS/PHYSICAL SPORTS/RACQUET (OR RACKET) SPORTS"},
+           {"REMOTE CONTROL SPORTS": "SPORTS/PHYSICAL SPORTS/REMOTE CONTROL SPORTS"},
+           {"RUNNING": "SPORTS/PHYSICAL SPORTS/RUNNING"},
+           {"SAILING": "SPORTS/PHYSICAL SPORTS/SAILING"},
+           {"SNOW SPORTS": "SPORTS/PHYSICAL SPORTS/SNOW SPORTS"},  
+           {"SHOOTING SPORTS": "SPORTS/PHYSICAL SPORTS/SHOOTING SPORTS"},
+           {"STACKING": "SPORTS/PHYSICAL SPORTS/STACKING"},
+           {"STICK AND BALL GAMES": "SPORTS/PHYSICAL SPORTS/STICK AND BALL GAMES"},
+           {"STREET SPORTS": "SPORTS/PHYSICAL SPORTS/STREET SPORTS"},
+           {"TAG GAMES": "SPORTS/PHYSICAL SPORTS/TAG GAMES"},
+           {"WALKING": "SPORTS/PHYSICAL SPORTS/WALKING"},
+           {"WALL_AND_WALL": "SPORTS/PHYSICAL SPORTS/WALL_AND_WALL"},
+           {"AQUATIC & PADDLE SPORTS": "SPORTS/PHYSICAL SPORTS/AQUATIC & PADDLE SPORTS"},   
+           {"WEIGHTLIFTING": "SPORTS/PHYSICAL SPORTS/STICK AND BALL GAMES"},
+           {"MOTORIZED SPORTS": "SPORTS/PHYSICAL SPORTS/STREET SPORTS"}
+           {"MIND SPORTS": "SPORTS/MIND SPORTS"},
+           {"CARD GAMES": "SPORTS/MIND SPORTS/CARD GAMES"},
+           {"STRATEGY BOARD GAMES": "SPORTS/MIND SPORTS/STRATEGY BOARD GAMES"},
+           {"COMPETITIVE VIDEO GAMES": "SPORTS/MIND SPORTS/COMPETITIVE VIDEO GAMES"}          
+           
+           
+
+
+         ]
+       },
+       {"Definition2":
+         [
+           {"AIR SPORTS": "SPORTS/PHYSICAL SPORTS/AIR SPORTS"},
+           {"ATHLETICS (TRACK AND FIELD)": "SPORTS/PHYSICAL SPORTS/ATHLETICS (TRACK AND FIELD)"},
+           {"ELECTRONIC SPORTS": "SPORTS/PHYSICAL SPORTS/ELECTRONIC SPORTS"},           
+           {"ENDURANCE SPORTS": "SPORTS/PHYSICAL SPORTS/ENDURANCE SPORTS"},  
+           {"SKATING SPORTS": "SPORTS/PHYSICAL SPORTS/SKATING SPORTS"},
+           {"SNOW SPORTS": "SPORTS/PHYSICAL SPORTS/SNOW SPORTS"},           
+           {"STRENGTH SPORTS": "SPORTS/PHYSICAL SPORTS/STRENGTH SPORTS"},
+           {"TABLE SPORTS": "SPORTS/PHYSICAL SPORTS/TABLE SPORTS"},
+           {"TARGET SPORTS": "SPORTS/PHYSICAL SPORTS/TARGET SPORTS"},
+           {"TEAM SPORTS": "SPORTS/PHYSICAL SPORTS/TEAM SPORTS"},
+           {"WIND SPORTS": "SPORTS/PHYSICAL SPORTS/WIND SPORTS"},           
+           {"FICTIONAL GAMES AND SPORTS": "SPORTS/PHYSICAL SPORTS/FICTIONAL GAMES AND SPORTS"},   
+           {"MISCELLANEOUS SPORTS": "SPORTS/PHYSICAL SPORTS/MISCELLANEOUS SPORTS"},           
+           {"Banzai skydiving": "SPORTS/PHYSICAL SPORTS/AIR SPORTS/Banzai skydiving"},
+           {"Bungee jumping": "SPORTS/PHYSICAL SPORTS/AIR SPORTS/Bungee jumping"},
+           {"Hot air ballooning": "SPORTS/PHYSICAL SPORTS/AIR SPORTS/Hot air ballooning"},             
+           {"ATHLETICS (TRACK AND FIELD)": "SPORTS/PHYSICAL SPORTS/ATHLETICS (TRACK AND FIELD)/"},
+           {"ATHLETICS (TRACK AND FIELD)": "SPORTS/PHYSICAL SPORTS/ATHLETICS (TRACK AND FIELD)/"},
+           {"Steeplechase": "SPORTS/PHYSICAL SPORTS/ATHLETICS (TRACK AND FIELD)/"},
+           {"Cross-Country": "SPORTS/PHYSICAL SPORTS/ATHLETICS (TRACK AND FIELD)/Cross-Country"},           
+           {"Jumping": "SPORTS/PHYSICAL SPORTS/ATHLETICS (TRACK AND FIELD)/Jumping"},
+           {"Triple jump": "SPORTS/PHYSICAL SPORTS/ATHLETICS (TRACK AND FIELD)/Jumping/Triple jump"},
+           {"Long jump": "SPORTS/PHYSICAL SPORTS/ATHLETICS (TRACK AND FIELD)/Jumping/Long jump"},           
+           {"High jump": "SPORTS/PHYSICAL SPORTS/ATHLETICS (TRACK AND FIELD)/Jumping/High jump"},
+           {"Pole vault": "SPORTS/PHYSICAL SPORTS/ATHLETICS (TRACK AND FIELD)/Jumping/Pole vault"},
+           {"Throwing": "SPORTS/PHYSICAL SPORTS/ATHLETICS (TRACK AND FIELD)/Throwing"},
+           {"Discus": "SPORTS/PHYSICAL SPORTS/ATHLETICS (TRACK AND FIELD)/Throwing/Discus"},
+           {"Hammer throw": "SPORTS/PHYSICAL SPORTS/ATHLETICS (TRACK AND FIELD)/Throwing/Hammer throw"},
+           {"Javelin": "SPORTS/PHYSICAL SPORTS/ATHLETICS (TRACK AND FIELD)/Throwing/Javelin"},
+           {"Atlatl (Spear-throwing)": "SPORTS/PHYSICAL SPORTS/ATHLETICS (TRACK AND FIELD)/Throwing/Atlatl (Spear-throwing)"},
+           {"Shot put": "SPORTS/PHYSICAL SPORTS/ATHLETICS (TRACK AND FIELD)/Throwing/Shot put"},
+           {"Race Walking": "SPORTS/PHYSICAL SPORTS/ATHLETICS (TRACK AND FIELD)/Race Walking"},
+           {"ELECTRONIC SPORTS": "SPORTS/PHYSICAL SPORTS/ELECTRONIC SPORTS/"},
+           {"Combat robot": "SPORTS/PHYSICAL SPORTS/ELECTRONIC SPORTS/Combat robot"},
+           {"Radio-control vehicles": "SPORTS/PHYSICAL SPORTS/ELECTRONIC SPORTS/Radio-control vehicles"},
+           {"Geo caching": "SPORTS/PHYSICAL SPORTS/ELECTRONIC SPORTS/Geo caching"},
+           {"Contesting (Radio sport)": "SPORTS/PHYSICAL SPORTS/ELECTRONIC SPORTS/Contesting (Radio sport)"},
+           {"Gaming (e-Sports)": "SPORTS/PHYSICAL SPORTS/ELECTRONIC SPORTS/Gaming (e-Sports)"},
+           {"Running": "SPORTS/PHYSICAL SPORTS/ENDURANCE SPORTS/Running"},            
+           {"Swimming": "SPORTS/PHYSICAL SPORTS/ENDURANCE SPORTS/Swimming"},            
+           {"Rowing": "SPORTS/PHYSICAL SPORTS/ENDURANCE SPORTS/Rowing"},
+           {"Wheelchair racing": "SPORTS/PHYSICAL SPORTS/ENDURANCE SPORTS/Wheelchair racing"},            
+           {"Chariot Racing": "SPORTS/PHYSICAL SPORTS/ENDURANCE SPORTS/Chariot Racing"},             
+           {"Wood chopping": "SPORTS/PHYSICAL SPORTS/ENDURANCE SPORTS/Wood chopping"},             
+           {"Cross-country skiing": "SPORTS/PHYSICAL SPORTS/ENDURANCE SPORTS/Cross-country skiing"},  
+           {"Aggressive inline skating": "SPORTS/PHYSICAL SPORTS/SKATING SPORTS/Aggressive inline skating"},
+           {"Artistic roller skating": "SPORTS/PHYSICAL SPORTS/SKATING SPORTS/Artistic roller skating"},
+           {"Figure skating": "SPORTS/PHYSICAL SPORTS/SKATING SPORTS/Figure skating"},
+           {"Figure skating": "SPORTS/PHYSICAL SPORTS/SKATING SPORTS/Figure skating"},
+           {"Freestyle slalom skating": "SPORTS/PHYSICAL SPORTS/SKATING SPORTS/Freestyle slalom skating"},
+           {"Ice dancing": "SPORTS/PHYSICAL SPORTS/SKATING SPORTS/Ice dancing"},
+           {"Ice skating": "SPORTS/PHYSICAL SPORTS/SKATING SPORTS/Ice skating"},
+           {"Inline speed skating": "SPORTS/PHYSICAL SPORTS/SKATING SPORTS/Inline speed skating"},
+           {"Inline speed skating": "SPORTS/PHYSICAL SPORTS/SKATING SPORTS/Inline speed skating"},
+           {"Rinkball": "SPORTS/PHYSICAL SPORTS/SKATING SPORTS/Rinkball"},
+           {"Rink hockey": "SPORTS/PHYSICAL SPORTS/SKATING SPORTS/Rink hockey"},
+           {"Roller derby": "SPORTS/PHYSICAL SPORTS/SKATING SPORTS/Roller derby"},
+           {"Roller skating": "SPORTS/PHYSICAL SPORTS/SKATING SPORTS/Roller skating"},
+           {"Short track speed skating": "SPORTS/PHYSICAL SPORTS/SKATING SPORTS/Short track speed skating"},
+           {"Skater hockey": "SPORTS/PHYSICAL SPORTS/SKATING SPORTS/Skater hockey"},
+           {"Speed skating": "SPORTS/PHYSICAL SPORTS/SKATING SPORTS/Speed skating"},
+           {"Synchronized skating": "SPORTS/PHYSICAL SPORTS/SKATING SPORTS/Synchronized skating"},
+           {"Snowsports": "SPORTS/PHYSICAL SPORTS/SNOW SPORTS/Snowsports"},
+           {"Freestyle skiing": "SPORTS/PHYSICAL SPORTS/SNOW SPORTS/Freestyle skiing"}, 
+           {"Snowboarding": "SPORTS/PHYSICAL SPORTS/SNOW SPORTS/Snowboarding"},           
+           {"Ski flying": "SPORTS/PHYSICAL SPORTS/SNOW SPORTS/Ski flying"},
+           {"Skibob": "SPORTS/PHYSICAL SPORTS/SNOW SPORTS/Skibob"}, 
+           {"Boardercross": "SPORTS/PHYSICAL SPORTS/SNOW SPORTS/Boardercross"}, 
+           {"Freestyle snowboarding": "SPORTS/PHYSICAL SPORTS/SNOW SPORTS/Freestyle snowboarding"},           
+           {"Snowshoeing": "SPORTS/PHYSICAL SPORTS/SNOW SPORTS/Snowshoeing"}, 
+           {"Skiboarding": "SPORTS/PHYSICAL SPORTS/SNOW SPORTS/Skiboarding"}, 
+           {"Skiing": "SPORTS/PHYSICAL SPORTS/SNOW SPORTS/Skiing"}, 
+           {"Olympic weightlifting": "SPORTS/PHYSICAL SPORTS/STRENGTH SPORTS (SHEER POWER)/Olympic weightlifting"},
+           {"Powerlifting": "SPORTS/PHYSICAL SPORTS/STRENGTH SPORTS (SHEER POWER)/Powerlifting"},
+           {"Arm Wrestling": "SPORTS/PHYSICAL SPORTS/STRENGTH SPORTS (SHEER POWER)/Arm Wrestling"}, 
+           {"Thumb wrestling": "SPORTS/PHYSICAL SPORTS/STRENGTH SPORTS (SHEER POWER)/Thumb wrestling"},
+           {"Toe wrestling": "SPORTS/PHYSICAL SPORTS/STRENGTH SPORTS (SHEER POWER)/Toe wrestling"},
+           {"Tug-o-war": "SPORTS/PHYSICAL SPORTS/STRENGTH SPORTS (SHEER POWER)/Tug-o-war"},
+           {"Wood chopping": "SPORTS/PHYSICAL SPORTS/STRENGTH SPORTS (SHEER POWER)/Wood chopping"},
+           {"Wood splitting": "SPORTS/PHYSICAL SPORTS/STRENGTH SPORTS (SHEER POWER)/Wood splitting"},           
+           {"Zourkhaneh": "SPORTS/PHYSICAL SPORTS/STRENGTH SPORTS (SHEER POWER)/Zourkhaneh"},
+           {"Air hockey": "SPORTS/PHYSICAL SPORTS/TABLE SPORTS/Air hockey"},          
+           {"Backgammon": "SPORTS/PHYSICAL SPORTS/TABLE SPORTS/Backgammon"},          
+           {"Beer Pong": "SPORTS/PHYSICAL SPORTS/TABLE SPORTS/Beer Pong"},
+           {"Connect Four": "SPORTS/PHYSICAL SPORTS/TABLE SPORTS/Connect Four"},  
+           {"Cue sports": "SPORTS/PHYSICAL SPORTS/TABLE SPORTS/Cue sports"}, 
+           {"Draughts (aka checkers)": "SPORTS/PHYSICAL SPORTS/TABLE SPORTS/Draughts (aka checkers)"},          
+           {"Dominoes": "SPORTS/PHYSICAL SPORTS/TABLE SPORTS/Dominoes"},          
+           {"Janggi": "SPORTS/PHYSICAL SPORTS/TABLE SPORTS/Janggi"},
+           {"Mahjong (aka Taipei)": "SPORTS/PHYSICAL SPORTS/TABLE SPORTS/Mahjong (aka Taipei)"},  
+           {"Reversi (aka Othello)": "SPORTS/PHYSICAL SPORTS/TABLE SPORTS/Reversi (aka Othello)"},          
+           {"Shogi": "SPORTS/PHYSICAL SPORTS/TABLE SPORTS/Shogi"},          
+           {"Scrabble": "SPORTS/PHYSICAL SPORTS/TABLE SPORTS/Scrabble"},          
+           {"Subbuteo": "SPORTS/PHYSICAL SPORTS/TABLE SPORTS/Subbuteo"},
+           {"Table football": "SPORTS/PHYSICAL SPORTS/TABLE SPORTS/Table football"},          
+           {"Table Tennis (aka Ping Pong)": "SPORTS/PHYSICAL SPORTS/TABLE SPORTS/Table Tennis (aka Ping Pong)"},          
+           {"Table hockey": "SPORTS/PHYSICAL SPORTS/TABLE SPORTS/Table hockey"},          
+           {"Xiangqi": "SPORTS/PHYSICAL SPORTS/TABLE SPORTS/Xiangqi"},    
+           {"Archery": "SPORTS/PHYSICAL SPORTS/TARGET SPORTS/Archery"},
+           {"Axe throwing": "SPORTS/PHYSICAL SPORTS/TARGET SPORTS/Axe throwing"},
+           {"Calva": "SPORTS/PHYSICAL SPORTS/TARGET SPORTS/Calva"},          
+           {"Croquet": "SPORTS/PHYSICAL SPORTS/TARGET SPORTS/Croquet"},           
+           {"Cue sports": "SPORTS/PHYSICAL SPORTS/TARGET SPORTS/Cue sports"},           
+           {"Darts": "SPORTS/PHYSICAL SPORTS/TARGET SPORTS/Darts"},
+           {"Golf": "SPORTS/PHYSICAL SPORTS/TARGET SPORTS/Golf"},
+           {"Horseshoes (horseshoe throwing)": "SPORTS/PHYSICAL SPORTS/TARGET SPORTS/Horseshoes (horseshoe throwing)"},          
+           {"Knife throwing": "SPORTS/PHYSICAL SPORTS/TARGET SPORTS/Knife throwing"},           
+           {"Kubb": "SPORTS/PHYSICAL SPORTS/TARGET SPORTS/Kubb"},  
+           {"Lawn bowls": "SPORTS/PHYSICAL SPORTS/TARGET SPORTS/Lawn bowls"},           
+           {"Matball": "SPORTS/PHYSICAL SPORTS/TARGET SPORTS/Matball"},
+           {"Pall mall": "SPORTS/PHYSICAL SPORTS/TARGET SPORTS/Pall mall"},          
+           {"Pétanque": "SPORTS/PHYSICAL SPORTS/TARGET SPORTS/Pétanque"},           
+           {"Shooting": "SPORTS/PHYSICAL SPORTS/TARGET SPORTS/Shooting"},           
+           {"Trugo": "SPORTS/PHYSICAL SPORTS/TARGET SPORTS/Trugo"},            
+           {"Skittles": "SPORTS/PHYSICAL SPORTS/TARGET SPORTS/Skittles"},
+           {"Skee ball": "SPORTS/PHYSICAL SPORTS/TARGET SPORTS/Skee ball"},          
+           {"Pitch and putt": "SPORTS/PHYSICAL SPORTS/TARGET SPORTS/Pitch and putt"},           
+           {"Woodball": "SPORTS/PHYSICAL SPORTS/TARGET SPORTS/Woodball"},  
+           {"Basketball family": "SPORTS/PHYSICAL SPORTS/TEAM SPORTS/Basketball family"},     
+           {"Bat and ball games": "SPORTS/PHYSICAL SPORTS/TEAM SPORTS/Bat and ball games"}, 
+           {"Bowling": "SPORTS/PHYSICAL SPORTS/TEAM SPORTS/Bowling"}, 
+           {"Basque pelota": "SPORTS/PHYSICAL SPORTS/TEAM SPORTS/Basque pelota"},     
+           {"Bunnock": "SPORTS/PHYSICAL SPORTS/TEAM SPORTS/Bunnock"}, 
+           {" Camogie": "SPORTS/PHYSICAL SPORTS/TEAM SPORTS/ Camogie"},
+           {"Football family": "SPORTS/PHYSICAL SPORTS/TEAM SPORTS/Football family"},     
+           {"Gateball": "SPORTS/PHYSICAL SPORTS/TEAM SPORTS/Gateball"}, 
+           {"Handball": "SPORTS/PHYSICAL SPORTS/TEAM SPORTS/Handball"}, 
+           {"Handball": "SPORTS/PHYSICAL SPORTS/TEAM SPORTS/Handball"},     
+           {"Hockey family": "SPORTS/PHYSICAL SPORTS/TEAM SPORTS/Hockey family"}, 
+           {" Horseshoe": "SPORTS/PHYSICAL SPORTS/TEAM SPORTS/ Horseshoe"},
+           {"Kickball": "SPORTS/PHYSICAL SPORTS/WIND SPORTS/Kickball"},    
+           {"Lacrosse": "SPORTS/PHYSICAL SPORTS/WIND SPORTS/Lacrosse"},     
+           {"Mesoamerican ballgame": "SPORTS/PHYSICAL SPORTS/WIND SPORTS/Mesoamerican ballgame"}, 
+           {"Muggle Quidditch": "SPORTS/PHYSICAL SPORTS/WIND SPORTS/Muggle Quidditch"},
+           {"Newcomb ball": "SPORTS/PHYSICAL SPORTS/FICTIONAL GAMES AND SPORTS/Newcomb ball"}, 
+           {"Polo": "SPORTS/PHYSICAL SPORTS/FICTIONAL GAMES AND SPORTS/Polo"}, 
+           {"Paintball": "SPORTS/PHYSICAL SPORTS/TEAM SPORTS/Paintball"},     
+           {"Sepak Takraw": "SPORTS/PHYSICAL SPORTS/TEAM SPORTS/Sepak Takraw"}, 
+           {"Tennis Polo": "SPORTS/PHYSICAL SPORTS/TEAM SPORTS/Tennis Polo"}, 
+           {"Underwater football": "SPORTS/PHYSICAL SPORTS/TEAM SPORTS/Underwater football"},     
+           {"Woodsman": "SPORTS/PHYSICAL SPORTS/TEAM SPORTS/Woodsman"}, 
+           {"Volleyball": "SPORTS/PHYSICAL SPORTS/TEAM SPORTS/Volleyball"}, 
+           {"Sailing": "SPORTS/PHYSICAL SPORTS/WIND SPORTS/Sailing"},    
+           {"Kite flying": "SPORTS/PHYSICAL SPORTS/WIND SPORTS/Kite flying"},     
+           {"parachuting": "SPORTS/PHYSICAL SPORTS/WIND SPORTS/parachuting"}, 
+           {"Hot Air Balloon Racing": "SPORTS/PHYSICAL SPORTS/WIND SPORTS/Hot Air Balloon Racing"},
+           {"Calvinball": "SPORTS/PHYSICAL SPORTS/FICTIONAL GAMES AND SPORTS/Calvinball"}, 
+           {"Quidditch": "SPORTS/PHYSICAL SPORTS/FICTIONAL GAMES AND SPORTS/Quidditch"},
+           {"Competitive eating": "SPORTS/PHYSICAL SPORTS/MISCELLANEOUS SPORTS/Competitive eating"},
+           {"Egg and spoon race": "SPORTS/PHYSICAL SPORTS/MISCELLANEOUS SPORTS/Egg and spoon race"},
+           {"Extreme ironing": "SPORTS/PHYSICAL SPORTS/MISCELLANEOUS SPORTS/Extreme ironing"},
+           {"Footbag (hacky sack)": "SPORTS/PHYSICAL SPORTS/MISCELLANEOUS SPORTS/Footbag (hacky sack)"},
+           {"Haggis hurling": "SPORTS/PHYSICAL SPORTS/MISCELLANEOUS SPORTS/Haggis hurling"},
+           {"Lumberjack sports": "SPORTS/PHYSICAL SPORTS/MISCELLANEOUS SPORTS/Lumberjack sports"},
+           {"Aizkolaritza": "SPORTS/PHYSICAL SPORTS/MISCELLANEOUS SPORTS/Lumberjack sports/Aizkolaritza"},
+           {"Axe throwing": "SPORTS/PHYSICAL SPORTS/MISCELLANEOUS SPORTS/Lumberjack sports/Axe throwing"},
+           {"Logrolling": "SPORTS/PHYSICAL SPORTS/MISCELLANEOUS SPORTS/Lumberjack sports/Logrolling"},
+           {"Wood chopping": "SPORTS/PHYSICAL SPORTS/MISCELLANEOUS SPORTS/Lumberjack sports/Wood chopping"},
+           {"Wood splitting": "SPORTS/PHYSICAL SPORTS/MISCELLANEOUS SPORTS/Lumberjack sports/Wood splitting"},
+           {"Patball": "SPORTS/PHYSICAL SPORTS/MISCELLANEOUS SPORTS/Patball"},
+           {"Ringette": "SPORTS/PHYSICAL SPORTS/MISCELLANEOUS SPORTS/Ringette"},
+           {"Sack race": "SPORTS/PHYSICAL SPORTS/MISCELLANEOUS SPORTS/Sack race"},
+           {"Soap shoes": "SPORTS/PHYSICAL SPORTS/MISCELLANEOUS SPORTS/Soap shoes"},
+           {"Tennikoit": "SPORTS/PHYSICAL SPORTS/MISCELLANEOUS SPORTS/Tennikoit"},
+           {"Tetherball": "SPORTS/PHYSICAL SPORTS/MISCELLANEOUS SPORTS/Tetherball"},
+           {"Three-legged race": "SPORTS/PHYSICAL SPORTS/MISCELLANEOUS SPORTS/Three-legged race"}
+           {"Wallball": "SPORTS/PHYSICAL SPORTS/MISCELLANEOUS SPORTS/Wallball"}           
+         ]
+       }
+    ]
+};
+
+
+
+    
+
+
+
+
+
+           
+  
+
+             
+           {"Aerobatics": "SPORTS/PHYSICAL SPORTS/AIR SPORTS/Aerobatics"},
+           {"Gliding aerobatics": "SPORTS/PHYSICAL SPORTS/AIR SPORTS/Aerobatics/Gliding aerobatics"},
+           {"Air racing": "SPORTS/PHYSICAL SPORTS/AIR SPORTS/Air racing"},
+           {"Ballooning": "SPORTS/PHYSICAL SPORTS/AIR SPORTS/Ballooning"},
+           {"Cluster ballooning": "SPORTS/PHYSICAL SPORTS/AIR SPORTS/Ballooning/Cluster ballooning"},
+            {"Hopper ballooning": "SPORTS/PHYSICAL SPORTS/AIR SPORTS/Ballooning/Hopper ballooning"},          
+            {"Gliding": "SPORTS/PHYSICAL SPORTS/AIR SPORTS/Gliding"},
+           {"Hang gliding": "SPORTS/PHYSICAL SPORTS/AIR SPORTS/Hang gliding"},           
+            {"Powered hang glider": "SPORTS/PHYSICAL SPORTS/AIR SPORTS/Hang gliding/Powered hang glider"},
+            {"Human powered aircraft": "SPORTS/PHYSICAL SPORTS/AIR SPORTS/Human powered aircraft"},
+            {"Model aircraft": "SPORTS/PHYSICAL SPORTS/AIR SPORTS/Model aircraft"},          
+           {"Parachuting": "SPORTS/PHYSICAL SPORTS/AIR SPORTS/Parachuting"},
+            {"Banzai skydiving": "SPORTS/PHYSICAL SPORTS/AIR SPORTS/Parachuting/Banzai skydiving"},
+            {"BASE jumping": "SPORTS/PHYSICAL SPORTS/AIR SPORTS/Parachuting/BASE jumping"},          
+            {"Skysurfing (sky diving)": "SPORTS/PHYSICAL SPORTS/AIR SPORTS/Parachuting/Skysurfing (sky diving)"},
+           {"Wingsuit flying": "SPORTS/PHYSICAL SPORTS/AIR SPORTS/Parachuting/Wingsuit flying"},           
+            {"Paragliding": "SPORTS/PHYSICAL SPORTS/AIR SPORTS/Paragliding"},
+            {"Powered paragliding": "SPORTS/PHYSICAL SPORTS/AIR SPORTS/Paragliding/Powered paragliding"},          
+            {"Ultralight aviation": "SPORTS/PHYSICAL SPORTS/AIR SPORTS/Ultralight aviation"},          
+           {"Paramotoring": "SPORTS/PHYSICAL SPORTS/AIR SPORTS/Paramotoring"},  
+           {"Field archery": "SPORTS/PHYSICAL SPORTS/ARCHERY/Field archery"},
+           {"Flight archery": "SPORTS/PHYSICAL SPORTS/ARCHERY/Flight archery"},
+           {"Gungdo": "SPORTS/PHYSICAL SPORTS/ARCHERY/Gungdo"},
+           {"Indoor archery": "SPORTS/PHYSICAL SPORTS/ARCHERY/Indoor archery"},           
+           {"Kyudo": "SPORTS/PHYSICAL SPORTS/ARCHERY/Kyudo"},
+           {"Popinjay": "SPORTS/PHYSICAL SPORTS/ARCHERY/Popinjay"},
+           {"Target archery": "SPORTS/PHYSICAL SPORTS/ARCHERY/Target archery"},
+            {"Ball badminton": "SPORTS/PHYSICAL SPORTS/BALL OVER NET GAMES/Ball badminton"},
+             {"Biribol": "SPORTS/PHYSICAL SPORTS/BALL OVER NET GAMES/Biribol"},
+             {"Bossaball": "SPORTS/PHYSICAL SPORTS/BALL OVER NET GAMESBossaball/"},
+             {"Fistball": "SPORTS/PHYSICAL SPORTS/BALL OVER NET GAMES/Fistball"},
+             {"Footbag net": "SPORTS/PHYSICAL SPORTS/BALL OVER NET GAMES/Footbag net"},
+             {"Football tennis": "SPORTS/PHYSICAL SPORTS/BALL OVER NET GAMES/Football tennis"},
+             {"Footvolley": "SPORTS/PHYSICAL SPORTS/BALL OVER NET GAMES/Footvolley"},
+             {"Hooverball": "SPORTS/PHYSICAL SPORTS/BALL OVER NET GAMES/Hooverball"},
+             {"Peteca": "SPORTS/PHYSICAL SPORTS/BALL OVER NET GAMES/Peteca"},
+             {"Pickleball": "SPORTS/PHYSICAL SPORTS/BALL OVER NET GAMES/Pickleball"},            
+            {"Sepak takraw": "SPORTS/PHYSICAL SPORTS/BALL OVER NET GAMES/Sepak takraw"},
+             {"Sipa": "SPORTS/PHYSICAL SPORTS/BALL OVER NET GAMES/Sipa"},
+             {"Throwball": "SPORTS/PHYSICAL SPORTS/BALL OVER NET GAMES/Throwball"},
+             {"Volleyball": "SPORTS/PHYSICAL SPORTS/BALL OVER NET GAMES/Volleyball"},
+             {"Beach volleyball": "SPORTS/PHYSICAL SPORTS/BALL OVER NET GAMES/Volleyball/Beach volleyball"},
+             {"Water Volleyball": "SPORTS/PHYSICAL SPORTS/BALL OVER NET GAMES/Water Volleyball/Water Volleyball"},
+             {"Paralympic volleyball": "SPORTS/PHYSICAL SPORTS/BALL OVER NET GAMES/Volleyball/Paralympic volleyball"},
+             {"Wallyball": "SPORTS/PHYSICAL SPORTS/BALL OVER NET GAMES/Wallyball"},
+             {"Tennis": "SPORTS/PHYSICAL SPORTS/BALL OVER NET GAMES/Tennis"},   
+             {"Basketball": "SPORTS/PHYSICAL SPORTS/BASKETBALL FAMILY/Basketball"},
+            {"Beach basketball": "SPORTS/PHYSICAL SPORTS/BASKETBALL FAMILY/Basketball/Beach basketball"},
+           {"Deaf basketball": "SPORTS/PHYSICAL SPORTS/BASKETBALL FAMILY/Basketball/Deaf basketball"},
+            {"3x3": "SPORTS/PHYSICAL SPORTS/BASKETBALL FAMILY/Basketball/3x3"},            
+            {"Streetball": "SPORTS/PHYSICAL SPORTS/BASKETBALL FAMILY/Basketball/Streetball"},            
+            {"Water basketball": "SPORTS/PHYSICAL SPORTS/BASKETBALL FAMILY/Basketball/Water basketball"},
+           {"Water basketball": "SPORTS/PHYSICAL SPORTS/BASKETBALL FAMILY/Basketball/Water basketball"},            
+            {"Wheelchair basketball": "SPORTS/PHYSICAL SPORTS/BASKETBALL FAMILY/Basketball/Wheelchair basketball"},            
+           {"Korfball": "SPORTS/PHYSICAL SPORTS/BASKETBALL FAMILY/Korfball"},
+            {"Netball": "SPORTS/PHYSICAL SPORTS/BASKETBALL FAMILY/Netball"},
+           {"Fastnet": "SPORTS/PHYSICAL SPORTS/BASKETBALL FAMILY/Netball/Fastnet"},            
+            {"Indoor netball": "SPORTS/PHYSICAL SPORTS/BASKETBALL FAMILY/Netball/Indoor netball"},          
+             {"Slamball": "SPORTS/PHYSICAL SPORTS/BASKETBALL FAMILY/Slamball"},    
+             {"Baseball": "SPORTS/PHYSICAL SPORTS/BAT-AND-BALL (SAFE HAVEN)/Baseball"},
+             {"Softball": "SPORTS/PHYSICAL SPORTS/BAT-AND-BALL (SAFE HAVEN)/Basebal/Softball"},
+             Slow Pitch": "SPORTS/PHYSICAL SPORTS/BAT-AND-BALL (SAFE HAVEN)/Basebal/Softball/Slow Pitch"},
+            {"Bat-and-Trap": "SPORTS/PHYSICAL SPORTS/BAT-AND-BALL (SAFE HAVEN)/Bat-and-Trap"},
+             {"British baseball - four posts": "SPORTS/PHYSICAL SPORTS/BAT-AND-BALL (SAFE HAVEN)/British baseball - four posts"},
+             {"Brännboll - four bases": "SPORTS/PHYSICAL SPORTS/PHYSICAL SPORTS/BAT-AND-BALL (SAFE HAVEN)/Brännboll - four bases"},         
+             {"Corkball - four bases (no base-running)": "SPORTS/PHYSICAL SPORTS/BAT-AND-BALL (SAFE HAVEN)/Corkball - four bases (no base-running)"},
+             {"Cricket - three wickets": "SPORTS/PHYSICAL SPORTS/BAT-AND-BALL (SAFE HAVEN)/Cricket - three wickets"},
+             {"Indoor cricket": "SPORTS/PHYSICAL SPORTS/BAT-AND-BALL (SAFE HAVEN)/Cricket - three wickets/Indoor cricket"},          
+            {"Limited overs cricket": "SPORTS/PHYSICAL SPORTS/BAT-AND-BALL (SAFE HAVEN)/Cricket - three wickets/Limited overs cricket"},          
+             {"One Day International": "SPORTS/PHYSICAL SPORTS/BAT-AND-BALL (SAFE HAVEN)/Cricket - three wickets/One Day International"},          
+             {"Test cricket": "SPORTS/PHYSICAL SPORTS/BAT-AND-BALL (SAFE HAVEN)/Cricket - three wickets/Test cricket"},          
+             {"Twenty20": "SPORTS/PHYSICAL SPORTS/BAT-AND-BALL (SAFE HAVEN)/Cricket - three wickets/Twenty20t"}, 
+             {"Danish longball": "SPORTS/PHYSICAL SPORTS/BAT-AND-BALL (SAFE HAVEN)/Danish longball"},
+             {"Kickball": "SPORTS/PHYSICAL SPORTS/BAT-AND-BALL (SAFE HAVEN)/Kickball"},
+            {"Lapta – two salos (bases)": "SPORTS/PHYSICAL SPORTS/BAT-AND-BALL (SAFE HAVEN)/Lapta – two salos (bases)"}, 
+             {"The Massachusetts Game – four bases": "SPORTS/PHYSICAL SPORTS/BAT-AND-BALL (SAFE HAVEN)/The Massachusetts Game – four bases"},
+             {"Matball": "SPORTS/PHYSICAL SPORTS/BAT-AND-BALL (SAFE HAVEN)/Matball"},
+             {"Oina – One (Two, Three, or Four)": "SPORTS/PHYSICAL SPORTS/BAT-AND-BALL (SAFE HAVEN)/Oina – One (Two, Three, or Four)"}, 
+              {"Old Cat – variable": "SPORTS/PHYSICAL SPORTS/BAT-AND-BALL (SAFE HAVEN)/Old Cat – variable"},
+             {"Over-the-line – qv": "SPORTS/PHYSICAL SPORTS/BAT-AND-BALL (SAFE HAVEN)/Over-the-line – qv"}, 
+              {"Pesäpallo": "SPORTS/PHYSICAL SPORTS/BAT-AND-BALL (SAFE HAVEN)/Pesäpallo"}, 
+               {"Punchball": "SPORTS/PHYSICAL SPORTS/BAT-AND-BALL (SAFE HAVEN)/Punchball"},
+              {"Rounders – four bases or posts": "SPORTS/PHYSICAL SPORTS/BAT-AND-BALL (SAFE HAVEN)/Rounders – four bases or posts"},
+             {"Scrub baseball – four bases (not a team game per se)": "SPORTS/PHYSICAL SPORTS/BAT-AND-BALL (SAFE HAVEN)/Scrub baseball – four bases (not a team game per se)"}, 
+              {"Stickball – variable": "SPORTS/PHYSICAL SPORTS/BAT-AND-BALL (SAFE HAVEN)/Stickball – variable"},
+             {"Stool ball – two stools": "SPORTS/PHYSICAL SPORTS/BAT-AND-BALL (SAFE HAVEN)/Stool ball – two stools"}, 
+              {"T-Ball": "SPORTS/PHYSICAL SPORTS/BAT-AND-BALL (SAFE HAVEN)/T-Ball"},
+               {"Town ball – variable": "SPORTS/PHYSICAL SPORTS/BAT-AND-BALL (SAFE HAVEN)/Town ball – variable"}, 
+              {"Vigoro – two wickets": "SPORTS/PHYSICAL SPORTS/BAT-AND-BALL (SAFE HAVEN)/Vigoro – two wickets"},              
+             {"Wiffleball": "SPORTS/PHYSICAL SPORTS/BAT-AND-BALL (SAFE HAVEN)/Wiffleball"},  
+           {"Skateboarding": "SPORTS/PHYSICAL SPORTS/BOARD SPORTS/Skateboarding"},
+            {"Scootering": "SPORTS/PHYSICAL SPORTS/BOARD SPORTS/Scootering"},          
+           {"Casterboarding": "SPORTS/PHYSICAL SPORTS/BOARD SPORTS/Scootering/Casterboarding"},
+            {"Freeboard (skateboard)": "SPORTS/PHYSICAL SPORTS/BOARD SPORTS/Scootering/Freeboard (skateboard)"},
+           {"Longboarding": "SPORTS/PHYSICAL SPORTS/BOARD SPORTS/Scootering/Longboarding"},          
+            {"Streetboarding": "SPORTS/PHYSICAL SPORTS/BOARD SPORTS/Scootering/Streetboarding"},
+            {"Skysurfing": "SPORTS/PHYSICAL SPORTS/BOARD SPORTS/Skysurfing"},          
+           {"Streetluge": "SPORTS/PHYSICAL SPORTS/BOARD SPORTS/Streetluge"},
+           {"Snowboarding": "SPORTS/PHYSICAL SPORTS/BOARD SPORTS/Snowboarding"},
+            {"Mountainboarding": "SPORTS/PHYSICAL SPORTS/BOARD SPORTS/Mountainboarding"},         
+            {"Sandboarding": "SPORTS/PHYSICAL SPORTS/BOARD SPORTS/Sandboarding/"},
+            {"Snowkiting": "SPORTS/PHYSICAL SPORTS/BOARD SPORTS/Snowboarding/Snowkiting"},
+           {"Surfing": "SPORTS/PHYSICAL SPORTS/BOARD SPORTS/Surfing"},          
+            {"Swing boarding": "SPORTS/PHYSICAL SPORTS/BOARD SPORTS/Swing boarding"},
+            {"Wakesurfing": "SPORTS/PHYSICAL SPORTS/BOARD SPORTS/Swing boarding/Wakesurfing"},          
+           {"Bodyboarding": "SPORTS/PHYSICAL SPORTS/BOARD SPORTS/Swing boarding/Bodyboarding"},        
+           {"Riverboarding": "SPORTS/PHYSICAL SPORTS/BOARD SPORTS/Swing boarding/Riverboarding"},      
+           {"Skimboardingg": "SPORTS/PHYSICAL SPORTS/BOARD SPORTS/Swing boarding/Skimboarding"},          
+           {"Windsurfing": "SPORTS/PHYSICAL SPORTS/BOARD SPORTS/Swing boarding/Windsurfing"},
+            {"Wakeboarding": "SPORTS/PHYSICAL SPORTS/BOARD SPORTS/Swing boarding/Wakeboarding"},          
+           {"Kneeboarding": "SPORTS/PHYSICAL SPORTS/BOARD SPORTS/Swing boarding/Wakeboarding/Kneeboarding"},        
+            {"Board Swinging": "SPORTS/PHYSICAL SPORTS/BOARD SPORTS/Swing boarding/Board Swing"},
+            {"Balance boarding": "SPORTS/PHYSICAL SPORTS/BOARD SPORTS/Swing boarding/Balance boarding"},
+            {"Ropeboarding": "SPORTS/PHYSICAL SPORTS/BOARD SPORTS/Swing boarding/Board Swing/Ropeboarding"},
+             {"Curving": "SPORTS/PHYSICAL SPORTS/CATCH Curving"},   
+            {"Dodgeball": "SPORTS/PHYSICAL SPORTS/CATCH GAMES/Dodgeball"},
+            {"Ga-ga": "SPORTS/PHYSICAL SPORTS/CATCH GAMES/Ga-ga"},        
+             {"Keep Away": "SPORTS/PHYSICAL SPORTS/CATCH GAMESKeep Away/"},
+            {"Kin-Ball": "SPORTS/PHYSICAL SPORTS/CATCH GAMES/Kin-Ball"},        
+             {"Prisoner Ball": "SPORTS/PHYSICAL SPORTS/CATCH GAMES/Prisoner Ball"},
+            {"Rundown (aka Pickle)": "SPORTS/PHYSICAL SPORTS/CATCH GAMES/Rundown (aka Pickle)"},        
+             {"Rundown (aka Pickle)": "SPORTS/PHYSICAL SPORTS/CATCH GAMES/Rundown (aka Pickle)"},
+            {"Yukigassen": "SPORTS/PHYSICAL SPORTS/CATCH GAMES/Yukigassen"},           
+           {"Rock Climbing": "SPORTS/PHYSICAL SPORTS/CLIMBING/Rock Climbing"},
+           {"Bouldering": "SPORTS/PHYSICAL SPORTS/CLIMBING/Rock Climbing/Bouldering"},           
+           {"Deep-water soloing (psicobloc)": "SPORTS/PHYSICAL SPORTS/CLIMBING/Rock Climbing/Deep-water soloing"},
+           {"Sport climbing": "SPORTS/PHYSICAL SPORTS/CLIMBING/Rock Climbing/Sport climbing"},
+           {"Traditional climbing": "SPORTS/PHYSICAL SPORTS/CLIMBING/Rock Climbing/Traditional climbing"},           
+           {"Aid Climbing": "SPORTS/PHYSICAL SPORTS/CLIMBING/Aid Climbing"},
+           {"Ice Climbing": "SPORTS/PHYSICAL SPORTS/CLIMBING/Ice Climbing"},
+           {"Mixed climbing": "SPORTS/PHYSICAL SPORTS/CLIMBING/Mixed climbing"},
+           {"Abseiling": "SPORTS/PHYSICAL SPORTS/CLIMBING/Abseiling"},
+           {"Mountaineering": "SPORTS/PHYSICAL SPORTS/CLIMBING/Mountaineering"},
+           {"Canyoning (Canyoneering)": "SPORTS/PHYSICAL SPORTS/CLIMBING/Canyoning (Canyoneering)"},
+           {"Hiking": "SPORTS/PHYSICAL SPORTS/CLIMBING/Hiking"},           
+            {"Rope Climbing": "SPORTS/PHYSICAL SPORTS/CLIMBING/Rope Climbing"},          
+            {"Pole climbing": "SPORTS/PHYSICAL SPORTS/CLIMBING/Pole climbing"},          
+            {"Coasteering": "SPORTS/PHYSICAL SPORTS/CLIMBING/Coasteering"},   
+             {"Bicycles": "SPORTS/PHYSICAL SPORTS/CLIMBING/Bicycles"},
+              {"Artistic cycling": "SPORTS/PHYSICAL SPORTS/CLIMBING/Bicycles/Artistic cycling"},            
+             {"Bicycle Motocross or BMX": "SPORTS/PHYSICAL SPORTS/CLIMBING/Bicycles/Bicycle Motocross or BMX"},             
+              {"Freestyle BMX": "SPORTS/PHYSICAL SPORTS/CLIMBING/Bicycles/Freestyle BMX"}, 
+              {"Cyclo-cross": "SPORTS/PHYSICAL SPORTS/CLIMBING/Bicycles/Cyclo-cross"},
+              {"Cross-country mountain biking": "SPORTS/PHYSICAL SPORTS/CLIMBING/Bicycles/Cross-country mountain biking"},            
+             {"Road bicycle racing": "SPORTS/PHYSICAL SPORTS/CLIMBING/Bicycles/Road bicycle racing"},             
+              {"Track cycling": "SPORTS/PHYSICAL SPORTS/CLIMBING/Bicycles/Track cycling"},              
+             {"Cycle speedway": "SPORTS/PHYSICAL SPORTS/CLIMBING/Bicycles/Cycle speedway"},
+              {"Downhill mountain biking": "SPORTS/PHYSICAL SPORTS/CLIMBING/Bicycles/Downhill mountain biking"},            
+             {"Dirt jumping": "SPORTS/PHYSICAL SPORTS/CLIMBING/Bicycles/Dirt jumping"},             
+              {"Underwater cycling": "SPORTS/PHYSICAL SPORTS/CLIMBING/Bicycles/Underwater cycling"},  
+             {"Skibob(Skibobbing)": "SPORTS/PHYSICAL SPORTS/CLIMBING/Skibob(Skibobbing)"},              
+               {"Unicycle": "SPORTS/PHYSICAL SPORTS/CLIMBING/Unicycle"},            
+               {"Mountain unicycling": "SPORTS/PHYSICAL SPORTS/CLIMBING/Unicycle/Mountain unicycling"},           
+              {"Unicycle trials": "SPORTS/PHYSICAL SPORTS/CLIMBING/Unicycle/Unicycle trials"},
+              {"Unicycle hockey": "SPORTS/PHYSICAL SPORTS/CLIMBING/Unicycle/Unicycle hockey"},              
+               {"Unicycle basketball": "SPORTS/PHYSICAL SPORTS/CLIMBING/Unicycle/Unicycle basketball"},            
+               
+               
+           
+
+
+
+
+
+
+
+
+
+ 
+          {"Grappling": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Grappling"},
+           {"Aiki-j?jutsu": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Grappling/Aiki-jujutsu"},
+          {"Aikido": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Grappling/Aiki-jujutsu/Aikido"},
+           {"Kinomichi": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Grappling/Aiki-jujutsu/Aikido/Kinomichi"},
+          {"Jujutsu": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Grappling/Jujutsu"},              
+           {"Judo": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Grappling/Jujutsu/Judo"},             
+          {"Brazilian Jiu-Jitsu": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Grappling/Jujutsu/Judo/Brazilian Jiu-Jitsu"},
+              
+           {"Sambo (martial art)": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Grappling/Sambo (martial art)"},
+          {"Sumo": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Grappling/Sumo"},
+          {"Grappling": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Grappling"},
+          {"Wrestling": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Grappling/Wrestling"},
+          {"Amateur wrestling": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Grappling/Wrestling/Amateur wrestling"},
+           {"Greco-Roman wrestling": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Grappling/Wrestling/Amateur wrestling/Greco-Roman wrestling"},
+          {"Freestyle wrestling": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Grappling/Wrestling/Amateur wrestling/Freestyle wrestling"},  
+          {"Folk wrestling": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Grappling/Wrestling/Folk wrestling"},
+          {"Boli Khela": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Grappling/Wrestling/Folk wrestling/Boli Khela"},          
+          {"Dumog": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Grappling/Wrestling/Folk wrestling/Dumog"}, 
+          {"Glima": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Grappling/Wrestling/Folk wrestling/Glima"}, 
+          {"Kurash": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Grappling/Wrestling/Folk wrestling/Kurash"}, 
+          {"Lancashire wrestling": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Grappling/Wrestling/Folk wrestling/Lancashire wrestling"},
+          {"Catch wrestling": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Grappling/Wrestling/Folk wrestling/Lancashire wrestling/Catch wrestling"},
+          {"Malla-yuddha": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Grappling/Wrestling/Folk wrestling/Malla-yuddha"},
+          {"Mongolian wrestling": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Grappling/Wrestling/Folk wrestling/Mongolian wrestling"},
+           {"Pehlwani": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Grappling/Wrestling/Folk wrestling/Pehlwani"},
+           {"Schwingen": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Grappling/Wrestling/Folk wrestling/Schwingen"}, 
+          {"Shuai Jiao": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Grappling/Wrestling/Folk wrestling/Shuai Jiao"},
+           {"Ssireum": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Grappling/Wrestling/Folk wrestling/Ssireum"},
+           {"Varzesh-e Pahlavani": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Grappling/Wrestling/Folk wrestling/Varzesh-e Pahlavani"},
+           {"Ya?l? Güre?": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Grappling/Wrestling/Folk wrestling/Yagli Güres"},
+            {"Greek wrestling: WRESTLING AND MARTIAL ARTS": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Grappling/Wrestling/Greek wrestling"},   
+          {"Striking (Attacking)": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Striking (Attacking)"},
+          {"Choi Kwang-Do": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Striking (Attacking)/Choi Kwang-Do"},              
+          {"Boxing": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Striking (Attacking)/Boxing"},              
+           {"Underwater Boxing": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Striking (Attacking)/Underwater Boxing"},
+           {"Bokator": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Striking (Attacking)/Bokator"},
+           {"Capoeira": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Striking (Attacking)/Capoeira"},
+            {"Fujian White Crane": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Striking (Attacking)/Fujian White Crane"},
+           {"Karate": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Striking (Attacking)/Karate"},
+           {"Kenpo"(kempo): "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Striking (Attacking)/Kenpo (kempo)"},
+           {"Kickboxing": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Striking (Attacking)/Kickboxing"},
+           {"Lethwei": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Striking (Attacking)/Lethwei"},
+           {"Muay Thai": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Striking (Attacking)/Muay Thai"},
+            {"Pradal Serey": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Striking (Attacking)/Pradal Serey"},
+           {"San shou": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Striking (Attacking)/San shou"},
+           {"Savate": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Striking (Attacking)/Savate"},
+           {"Shaolin kung fu": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Striking (Attacking)/Shaolin kung fu"}, 
+             {"Sikaran": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Striking (Attacking)/Sikaran"},
+           {"Silat": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Striking (Attacking)/Silat"},
+           {"Subak": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Striking (Attacking)/Subak"},
+           {"Taekkyeon": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Striking (Attacking)/Taekkyeon"},
+           {"Taekwondo": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Striking (Attacking)/Taekwondo"},
+           {"Taido": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Striking (Attacking)/Taido"},
+           {"Tang Soo Do": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Striking (Attacking)/Tang Soo Do"},
+           {"Wing Chun": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Striking (Attacking)/Wing Chun"},
+            {"Wing Tsun": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Striking (Attacking)/Wing Tsun"},
+           {"Zui Quan": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Striking (Attacking)/Zui Quan"},
+           {"Mixed (hybrid) martial arts": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Mixed (hybrid) martial arts"},
+            {"Amateur pankration": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Mixed (hybrid) martial arts/Amateur pankration"},
+             {"Baguazhang": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Mixed (hybrid) martial arts/Baguazhang"},
+             {"Bando": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Mixed (hybrid) martial arts/Bando"},
+             {"Bartitsu": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Mixed (hybrid) martial arts/Bartitsu"},
+             {"Bujinkan": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Mixed (hybrid) martial arts/Bujinkan"},
+            {"Hapkido": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Mixed (hybrid) martial arts/Hapkido"},
+             {"Hwa Rang Do": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Mixed (hybrid) martial arts/Hwa Rang Do"},
+             {"Jeet Kune Do": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Mixed (hybrid) martial arts/Jeet Kune Do"},
+             {"Kajukenbo": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Mixed (hybrid) martial arts/Kajukenbo"},
+             {"Kalarippayattu": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Mixed (hybrid) martial arts/Kalarippayattu"},
+             {"Krav Maga": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Mixed (hybrid) martial arts/Krav Maga"},
+             {"Kuk Sool Won": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Mixed (hybrid) martial arts/Kuk Sool Won"},
+             {"MCMAP Marine Corps": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Mixed (hybrid) martial arts/MCMAP Marine Corps"},
+               {"Northern Praying Mantis: "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Mixed (hybrid) martial arts/Northern Praying Mantis"},
+             {"Ninjutsu": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Mixed (hybrid) martial arts/Ninjutsu"},
+             {"Pankration": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Mixed (hybrid) martial arts/Pankration"},
+             {"Pencak Silat": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Mixed (hybrid) martial arts/Pencak Silat"},
+             {"Sanshou": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Mixed (hybrid) martial arts/Sanshou"},
+             {"Shidokan": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Mixed (hybrid) martial arts/Shidokan"},
+             {"Shoot boxing": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Mixed (hybrid) martial arts/Shoot boxing"},
+             {"Shootfighting": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Mixed (hybrid) martial arts/Shootfighting"},
+               {"Shorinji Kempo": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Mixed (hybrid) martial arts/Shorinji Kempo"},
+             {"Systema": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Mixed (hybrid) martial arts/Systema"},
+             {"T'ai chi ch'uan": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Mixed (hybrid) martial arts/Tai chi chuan"},
+             {"Vajra-mushti": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Mixed (hybrid) martial arts/Vajra-mushti"},
+                 {"Vale tudo": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Mixed (hybrid) martial arts/Vale tudo"},
+             {"Vovinam": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Mixed (hybrid) martial arts/Vovinam"},
+             {"Xingyiquan": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Mixed (hybrid) martial arts/Xingyiquan"},
+           {"Weapons": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Weapons"},
+            {"Axe throwing": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Weapons/Axe throwing"},          
+            {"Battojutsu": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Weapons/Battojutsu"},
+            {"Boffer Fighting": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Weapons/Boffer Fighting"},
+            {"Eskrima": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Weapons/Eskrima"},
+             {"Egyptian stick fencing": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Weapons/Egyptian stick fencing"},
+            {"Fencing": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Weapons/Fencing"},
+            {"Gatka": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Weapons/Gatka"},
+             {"Haidong Gumdo": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Weapons/Haidong Gumdo"},
+            {"Hojojutsu": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Weapons/Hojojutsu"},
+            {"Iaido": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Weapons/Iaido"},          
+            {"Iaijutsu": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Weapons/Iaijutsu"},
+            {"Jodo": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Weapons/Jodo"},
+            {"Jogo do Pau": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Weapons/Jogo do Pau"},
+             {"Weapons": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Weapons/Jukendo"},
+            {"Weapons": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Weapons/Juttejutsu"},
+            {"Weapons": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Weapons/Kendo"},
+              {"Kenjutsu": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Weapons/Kenjutsu"},
+             {"kung fu": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Weapons/kung fu"},
+             {"Kyudo": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Weapons/Kyudo"},
+             {"Kyujutsu": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Weapons/Kyujutsu"},
+            {"Modern Arnis": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Weapons/Modern Arnis"},
+             {"Naginatajutsu": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Weapons/Naginatajutsu"},
+             {"Okinawan kobudo": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Weapons/Okinawan kobudo"},
+             {"Shurikenjutsu": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Weapons/Shurikenjutsu"},
+              {"Silambam": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Weapons/Silambam"},
+             {"Sojutsu": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Weapons/Sojutsu"},
+             {"Swordfighting": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Weapons/Swordfighting"},
+             {"Wushu sport": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Weapons/Wushu sport"},             
+              {"Gumdo": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Weapons/Gumdo"}, 
+           {"Skirmish": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Skirmish"},
+            {"Airsoft": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Skirmish/Airsoft"},          
+            {"Laser tag": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Skirmish/Laser tag"},
+            {"Paintball": "SPORTS/PHYSICAL SPORTS/COMBAT SPORTS: WRESTLING AND MARTIAL ARTS/Skirmish/Paintball"},  
+            {"Carom billiards": "SPORTS/PHYSICAL SPORTS/CUE SPORTS/Carom billiards"},
+           {"Three-cushion billards": "SPORTS/PHYSICAL SPORTS/CUE SPORTS/Carom billiards/Three-cushion billards"},
+           {"Five-pin billards": "SPORTS/PHYSICAL SPORTS/CUE SPORTS/Carom billiards/Five-pin billards"},
+           {"Balkline and straight rai": "SPORTS/PHYSICAL SPORTS/CUE SPORTS/Carom billiards/Balkline and straight rail"},
+           {"Cushion caroms billards": "SPORTS/PHYSICAL SPORTS/CUE SPORTS/Carom billiards/Cushion caroms billards"},
+           {"Four-ball (yotsudama) billards": "SPORTS/PHYSICAL SPORTS/CUE SPORTS/Carom billiards/Four-ball (yotsudama) billards"},
+           {"Artistic billiards": "SPORTS/PHYSICAL SPORTS/CUE SPORTS/Carom billiards/Artistic billiards"},
+           {"Novuss (koroona)": "SPORTS/PHYSICAL SPORTS/CUE SPORTS/Novuss (koroona)"},
+           {"Pocket billiards (pool)": "SPORTS/PHYSICAL SPORTS/CUE SPORTS/Pocket billiards (pool)"},
+           {"Eight-ball": "SPORTS/PHYSICAL SPORTS/CUE SPORTS/Pocket billiards (pool)/Eight-ball"},
+           {"Blackball": "SPORTS/PHYSICAL SPORTS/CUE SPORTS/Pocket billiards (pool)/Blackball"},           
+           {"Nine-ball": "SPORTS/PHYSICAL SPORTS/CUE SPORTS/Pocket billiards (pool)/Nine-ball"},
+           {"Straight pool (14.1 continuous)": "SPORTS/PHYSICAL SPORTS/CUE SPORTS/Pocket billiards (pool)/Straight pool (14.1 continuous)"},
+           {"One-pocket": "SPORTS/PHYSICAL SPORTS/CUE SPORTS/Pocket billiards (pool)/One-pocket"},
+           {"Three-ball": "SPORTS/PHYSICAL SPORTS/CUE SPORTS/Pocket billiards (pool)/Three-ball"},           
+           {"Seven-ball": "SPORTS/PHYSICAL SPORTS/CUE SPORTS/Pocket billiards (pool)/Seven-ball"},
+           {"Ten-ball": "SPORTS/PHYSICAL SPORTS/CUE SPORTS/Pocket billiards (pool)/Ten-ball"}, 
+            {"Rotation": "SPORTS/PHYSICAL SPORTS/CUE SPORTS/Pocket billiards (pool)/Rotation"},
+           {"Baseball pocket billiards": "SPORTS/PHYSICAL SPORTS/CUE SPORTS/Pocket billiards (pool)/Baseball pocket billiards"},           
+           {"Cribbage (pool)": "SPORTS/PHYSICAL SPORTS/CUE SPORTS/Pocket billiards (pool)/Cribbage (pool)"},
+           {"Bank pool": "SPORTS/PHYSICAL SPORTS/CUE SPORTS/Pocket billiards (pool)/Bank pool"}, 
+            {"Artistic pool": "SPORTS/PHYSICAL SPORTS/CUE SPORTS/Pocket billiards (pool)/Artistic pool"},
+           {"Trick shot competition": "SPORTS/PHYSICAL SPORTS/CUE SPORTS/Pocket billiards (pool)/Trick shot competition"},           
+           {"Speed pool": "SPORTS/PHYSICAL SPORTS/CUE SPORTS/Pocket billiards (pool)/Speed pool"},
+           {"Bowlliards": "SPORTS/PHYSICAL SPORTS/CUE SPORTS/Pocket billiards (pool)/Bowlliards"}, 
+            {"Chicago": "SPORTS/PHYSICAL SPORTS/CUE SPORTS/Pocket billiards (pool)/Chicago"},
+            {"Kelly pool": "SPORTS/PHYSICAL SPORTS/CUE SPORTS/Pocket billiards (pool)/Kelly pool"},            
+             {"Cutthroat pool": "SPORTS/PHYSICAL SPORTS/CUE SPORTS/Pocket billiards (pool)/Cutthroat pool"},
+            {"Killer pool": "SPORTS/PHYSICAL SPORTS/CUE SPORTS/Pocket billiards (pool)/Killer pool"},  
+            {"Russian pyramid": "SPORTS/PHYSICAL SPORTS/CUE SPORTS/Pocket billiards (pool)/Russian pyramid"},
+            {"Snooker": "SPORTS/PHYSICAL SPORTS/CUE SPORTS/Snooker"},            
+             {"Snooker plus": "SPORTS/PHYSICAL SPORTS/CUE SPORTS/Snooker plus/"},
+            {"Hybrid carom-pocket games": "SPORTS/PHYSICAL SPORTS/CUE SPORTS/Hybrid carom-pocket games"},
+            {"English billiards": "SPORTS/PHYSICAL SPORTS/CUE SPORTS/Hybrid carom-pocket games/English billiards"},
+            {"Bottle pool": "SPORTS/PHYSICAL SPORTS/CUE SPORTS/Hybrid carom-pocket games/Bottle pool"},            
+             {"Cowboy pool": "SPORTS/PHYSICAL SPORTS/CUE SPORTS/Hybrid carom-pocket games/Cowboy pool"},
+            {"Obstacle variations": "SPORTS/PHYSICAL SPORTS/CUE SPORTS/Obstacle variations"},
+             {"Bagatelle": "SPORTS/PHYSICAL SPORTS/CUE SPORTS/Obstacle variations/Bagatelle"},
+             {"Bar billiards": "SPORTS/PHYSICAL SPORTS/CUE SPORTS/Obstacle variations/Bar billiards"},              
+            {"Bumper pool": "SPORTS/PHYSICAL SPORTS/CUE SPORTS/Obstacle variations/Bumper pool"},  
+                                                                                                                         
+
+
+
+
+
+           {"DANCE": "SPORTS/PHYSICAL SPORTS/DANCE"},
+           {"EQUINE SPORTS": "SPORTS/PHYSICAL SPORTS/EQUINE SPORTS"},
+           {"FISHING": "SPORTS/PHYSICAL SPORTS/FISHING"},
+           {"FLYING DISC SPORTS": "SPORTS/PHYSICAL SPORTS/FLYING DISC SPORTS"},
+           {"FOOTBALL FAMILY": "SPORTS/PHYSICAL SPORTS/FOOTBALL FAMILY"},
+           {"GOLF": "SPORTS/PHYSICAL SPORTS/GOLF"},
+           {"GYMNASTICS": "SPORTS/PHYSICAL SPORTS/GYMNASTICS"},
+           {"HANDBALL FAMILY": "SPORTS/PHYSICAL SPORTS/HANDBALL FAMILY"},
+           {"HUNTING": "SPORTS/PHYSICAL SPORTS/HUNTING"},
+           {"ICE SPORTS": "SPORTS/PHYSICAL SPORTS/ICE SPORTS"}, 
+
+
+
+
+
+    },
+    {
+    "DANCE":
+        (
+        "Competitive dance", "Majorette"
+        )
+    },
+    {
+    "EQUINE SPORTS"
+        (
+        "Buzkashi", "Barrel Racing", "Campdrafting", "Charreada", "Chilean rodeo", "Cross Country", "Dressage", "Endurance riding", "English Pleasure", "Equitation", "Eventing", "Equestrian vaulting", "Gymkhana", "Harness racing", "Horse racing", "Horseball", "Hunter", "Hunter-jumpers", "Polo", "Pato", "Reining", "Rodeo", "Show Jumping", "Steeplechase", "Team penning", "Tent pegging", "Western Pleasure", "Polocrosse"
+        )
+    },
+    {
+    "FISHING":
+        (
+        "Angling", "Big-game fishing", "Casting", "Noodling", "Spearfishing", "Sport fishing, "Surf fishing", "Rock fishing", "Fly Fishing"
+        )
+    },
+    {
+    "FLYING DISC SPORTS":
+        (
+        "Disc dog", "Disc golf", "Disc golf (urban)", "Dodge disc", "Double disc court", "Flutterguts", "Freestyle", "Freestyle competition", "Fricket (aka disc cricket, cups, suzy sticks and crispy wickets)", "Friskee",  "Goaltimate", "Guts (game)", "Hot box", "Ringo", "Ultimate (sport)"
+        )
+    },
+    FOOTBALL FAMILY
+        {
+        "Association football":
+            (
+            "Jorkyball", "Paralympic football", Powerchair Football", "Reduced variants", "Five-a-side football", "Beach soccer",
+            "Futebol de Salão", "Futsal", "Papi fut", "Indoor soccer", "Masters Football", "Street football", "Cubbies", Freestyle football",
+            "Keepie uppie", "Swamp football", "Three sided football", "Australian football","Nine-a-side footy", "Rec footy", "Metro footy"
+            )
+        },       
+        "Gaelic football"
+        {
+        "Gridiron football":
+            (
+            "American football", "Eight-man football", "Flag football", "Indoor football": "Arena football", "Nine-man football",
+            "Six-man football", "Sprint football", "Touch football", "Canadian football", "Street football (American)"
+            )
+        },
+        {
+        "Rugby football":
+            (
+            "Beach rugby", "Rugby league", "Masters Rugby League", "Mini footy", "Mod league", "Rugby league nines", "Rugby league sevens",
+            "Tag Rugby", "Touch Football", "Wheelchair rugby league", "Rugby union", "American flag rugby", "Mini rugby", "Rugby sevens",
+            "Tag Rugby", "Touch rugby", "Rugby tens", "Snow rugby"
+            )
+        },
+        "Hybrid codes"
+            "Austus"
+            "Football tennis"
+            "Footvolley"
+            "International rules football"
+            "Kickball"
+            "Kronum"
+            "Matball"
+            "Samoa Rules"
+            "Speedball (sport)"
+            "Swedish football"
+            "Universal football"
+            "Volata"
+
+Golf
+Main article: Golf
+
+    Match play
+    Skins game
+    Stroke play
+    Team play
+        Fourball
+        Foursome
+        Shotgun start
+    Speed golf
+    Miniature golf
+
+Gymnastics
+Trampoline gymnast Jason Burnett at 2008 Canadian National Championships
+Main article: Gymnastics
+
+    Artistic gymnastics
+        Balance Beam
+        Floor
+        High Bar
+        Parallel Bars
+        Pommel Horse
+        Still Rings
+        Uneven Bars
+        Vault
+    Juggling
+    Rhythmic gymnastics
+        Ball
+        Club
+        Hoop
+        Ribbon
+        Rope
+    Rope jumping
+    Sports acrobatics
+    Sports aerobics
+    Slacklining
+    Trampolining
+    Trapeze
+        Flying trapeze
+        Static trapeze
+
+Handball family
+A 7-meter throw in Team handball.
+Main article: Team handball
+
+    Goalball
+    Tchoukball
+    Team handball
+        Beach handball
+        Czech handball
+        Field handball
+    Ringball
+    Torball
+    Volata
+    Water polo
+
+Hunting
+Main article: Hunting
+
+Sometimes considered blood sports.
+
+    Beagling
+    Big game hunting
+    Deer hunting
+    Fox hunting
+    Hare coursing
+    Wolf hunting
+
+Ice sports
+
+    Bandy
+        Rink bandy
+    Broomball
+    Curling
+    Ice hockey
+    Ringette
+    Ice yachting
+
+Kite sports
+
+    Kite buggy
+    Kite fighting
+    Kite landboarding
+    Kitesurfing
+    Parasailing
+    Snow kiting
+    Sport kite (Stunt kite)
+
+Mixed discipline
+The three components of triathlon: swimming, cycling, running
+
+Decathlon, Heptathlon, and the Pentathlons consist of ten, seven, and five component contests that are scored together using one points system.
+
+    Adventure racing
+    Biathlon
+    Duathlon
+    Decathlon
+    Heptathlon
+    Icosathlon
+    Modern pentathlon
+    Pentathlon
+    Triathlon
+    Woodsman
+
+Orienteering family
+
+    Geocaching
+    Orienteering
+    Rogaining
+    Letterboxing
+    Waymarking
+
+Pilota family
+Valencian pilota.
+
+    American handball
+    Australian Handball
+    Basque Pelota
+        Jai Alai
+    Fives
+        Eton Fives
+        Rugby Fives
+    Frisian handball
+    Four square
+    Gaelic handball
+    Jeu de paume
+    Palla
+    Patball
+    Valencian pilota
+
+Racquet (or racket) sports
+
+Sports where a player use a racquet (or racket) to hit a ball or other objects.
+People playing matkot, a form of beach tennis, in Tel Aviv.
+Justine Henin, a Tennis player.
+
+    Badminton
+    Ball badminton
+    Basque pelota
+        Frontenis
+        Jai alai
+    Beach tennis
+        Matkot
+    Fives
+    Pickleball
+    Pitton
+    Paleta Frontón
+    Pelota mixteca
+    Qianball
+    Racquetball
+    Racquets
+    Racketlon
+    Real tennis
+    Soft tennis
+    Speed-ball
+    Speedminton
+    Squash (Squash racquets)
+        Hardball squash
+    Squash tennis
+    Stické
+    Tennis
+    Tennis Polo
+    Xare
+
+
+Remote control
+
+    Model Aerobatics
+    RC Racing
+    Robot combat
+    Slot car racing
+
+Running
+200 meters sprint
+Main article: Running
+
+    Endurance
+        Cross-country running
+        Half marathon
+        Marathon
+        Tower running
+        Ultramarathon
+    Sprint (race)
+    Hurdles
+
+Sailing
+Windsurfing
+Main article: Sailing
+
+    Ice yachting
+    Land sailing
+    Land windsurfing
+    Sailing
+    Windsurfing
+    Kiteboarding
+    Dinghy sailing
+
+Snow sports
+Skiing
+Main article: Skiing
+
+    Alpine skiing
+    Cross-country skiing
+    Freestyle skiing
+    Nordic combined
+    Nordic skiing
+    Ski jumping
+    Skijoring
+    Ski touring
+    Speed skiing
+    Telemark skiing
+
+Sled sports
+United States Air Force Major Brady Canfield, 2003 U.S. skeleton champion, shows his takeoff form.
+Main article: Sledding
+
+    Bobsleigh
+    Luge
+    Skibobbing
+    Skeleton
+    Toboggan
+
+Shooting sports
+Main article: Shooting sports
+
+Sports using a firearm.
+
+    Clay pigeon shooting
+        Skeet shooting
+        Trap shooting
+        Sporting clays
+    Target shooting
+        Field target
+        Fullbore target rifle
+        High Power Rifle
+        Benchrest shooting
+        Metallic silhouette
+        Practical shooting
+        Cowboy Action Shooting
+    Metallic silhouette shooting
+
+Stacking
+
+    Sport stacking
+
+Stick and ball games
+
+    Hornussen
+
+Hockey
+
+    Hockey
+        Ball hockey
+        Bando
+        Bandy
+            Rink bandy
+        Broomball
+            Moscow broomball
+        Field Hockey
+            Indoor field hockey
+        Floorball
+        Ice hockey
+        Ice hockey players Roman Hamrlik and Joffrey Lupul dueling for position
+            Pond hockey
+            Power hockey
+            Ringette
+            Sledge hockey
+            Underwater ice hockey
+        Roller hockey
+            Inline hockey
+            Roller hockey (Quad)
+            Skater hockey
+        Rossall Hockey
+        Spongee
+        Street hockey
+        Underwater hockey
+        Unicycle hockey
+
+Hurling and shinty
+
+    Cammag
+    Hurling
+        Camogie
+    Shinty
+    Composite rules shinty-hurling
+
+Lacrosse
+
+    Lacrosse
+        Box lacrosse
+        Field lacrosse
+        Women's lacrosse
+        Intercrosse
+
+Polo
+
+    Polo
+    A Polo player.
+        Bicycle polo
+        Canoe polo
+        Cowboy polo
+        Elephant polo
+        Horse polo
+        Segway polo
+        Yak polo
+    Polocrosse
+        Marco Polo
+
+Street sports
+
+    Free running
+    Freestyle Footbag
+    Freestyle Football
+    Powerbocking
+
+Tag games
+Main article: Tag games
+
+    British bulldogs (American Eagle)
+    Capture the flag
+    Hana Ichi Monme
+    Hide and seek
+    Kabaddi
+    Kho kho
+    Kick the can
+    Oztag
+    Red rover
+    Tag
+
+Walking
+
+    Hiking
+    Backpacking (wilderness)
+    Race Walking
+    Bushwhacking
+
+Wall-and-ball
+A game of squash
+
+Games involving opponents hitting a ball against a wall/walls using a racket, or other piece of equipment, or merely gloved/barehanded.
+
+    American handball
+    Australian handball
+    Basque pelota
+    Butts Up
+    Chinese handball
+    Fives
+    Gaelic handball
+    International fronton
+    Jorkyball
+    Racquetball
+    Squash
+    Squash tennis
+    Suicide (game)
+    Valencian frontó
+    Wallball
+    Wallyball
+
+Aquatic & paddle sports
+
+These sports use water (a river, pool, etc.).
+Main article: Water sports
+Further information: Outline of kayaking and canoeing
+Canoeing
+
+    Canoeing
+    Outrigger canoeing
+
+Kayaking
+Main article: Kayaking
+
+    Creeking
+    Flyak
+    Freeboating
+    Royaking
+    Sea kayaking
+    Squirt Boating
+    Surf Kayaking
+    Whitewater kayaking
+
+Rafting
+Rafting
+
+    Rafting
+    White water rafting
+
+Rowing
+
+    Rowing (sport)
+    Gig racing
+    Coastal and ocean rowing
+        Surfboat
+    Single scull
+
+Other paddling sports
+
+    Dragon boat racing
+
+Greece - Hungary Water polo match (World Junior Championship 2004 Naples, Italy)
+Ball sports
+
+Netball football basketball
+Surface
+
+    Water Polo
+    Canoe Polo
+
+Michael Phelps swimming breaststroke at the 2008 Missouri Grand Prix.
+
+    Waboba
+
+Underwater
+
+    Underwater football
+    Underwater rugby
+
+Competitive swimming
+Main article: Competitive swimming
+
+    Backstroke
+    Breaststroke
+    Butterfly stroke
+    Freestyle swimming
+    Individual Medley
+    Synchronized swimming
+    Medley relay
+
+Kindred activities
+
+    Bifins (finswimming)
+    Surface finswimming
+
+Subsurface and recreational
+Main articles: Underwater sports and Recreational diving
+
+    Apnoea finswimming
+    Aquathlon (underwater wrestling)
+    Freediving
+    Immersion finswimming
+    Scuba Diving
+    Spearfishing
+    Snorkelling
+    Sport diving (sport)
+    Underwater hockey
+    Underwater orienteering
+    Underwater photography (sport)
+    Underwater target shooting
+    Underwater Boxing
+
+Diving
+Main article: Diving
+Weightlifting
+North Korean weightlifter Pak Hyon-Suk performing the snatch, one of the two lifts in the sport of Olympic weightlifting.
+Main articles: Olympic weightlifting and Powerlifting
+
+    Basque traditional weightlifting
+    Highland Games
+    Olympic weightlifting
+    Powerlifting
+    Strength athletics (strongman)
+    Steinstossen
+
+Motorized sports
+Auto racing
+The start of a Formula One race in 2008
+Main article: Auto racing
+
+    Autocross (aka Slalom)
+    Autograss
+    Banger racing
+    Board track racing
+    Demolition derby
+    Desert racing
+    Dirt track racing
+    Drag racing
+    Drifting
+    Folkrace
+    Formula racing
+    Formula Libre
+    Formula Student
+    Hillclimbing
+    Ice racing
+    Kart racing
+    Land speed records
+    Legends car racing
+    Midget car racing
+    Monster truck
+    Mud bogging
+    Off-road racing
+    Pickup truck racing
+    Production car racing
+    Race of Champions
+    Rally raid
+    Rallycross
+    Rallying
+    Regularity rally
+    Road racing
+    Short track motor racing
+    Snowmobile racing
+    Sports car racing
+    Sprint car racing
+    Street racing
+    Stock car racing
+    Time Attack
+    Tractor pulling
+    Touring car racing
+    Truck racing
+    Vintage racing[disambiguation needed]
+    Wheelstand competition
+
+Motorboat racing
+Main article: Offshore powerboat racing
+
+    Drag boat racing
+    F1 Powerboat Racing
+    Hydroplane racing
+    Jet sprint boat racing
+    Offshore powerboat racing
+    Personal water craft
+
+Motorcycle racing
+MotoGP racing
+Main article: Motorcycle racing
+
+    Auto Race
+    Board track racing
+    Cross-country rally
+    Endurance racing
+    Enduro
+    Freestyle Motocross
+    Grand Prix motorcycle racing
+    Grass Track
+    Hill Climb
+    Ice Racing
+    Ice speedway
+    Indoor enduro
+    Motocross
+    Motorcycle drag racing
+    Motorcycle speedway
+    Off-Road
+    Rally Raid
+    Road racing
+    Superbike racing
+    Supercross
+    Supermoto
+    Supersport racing
+    Superside
+    Track racing
+    Trial
+    TT racing
+    Free-style moto
+
+ATV racing
+ATV racing on a motocross track
+Main article: All-terrain vehicle § Sport competition
+Other
+
+    Stihl Timbersports Series
+
+Mind sports
+Main article: Mind sports
+
+Requiring little or no physical exertion or agility mind sports are often not considered true sports. Some mind sports are recognised by sporting federations. The following list is intended to represent anything that is likely to be referred to as a mind sport, not to argue their validity as sports.
+Card games
+Main articles: Card Games and List of card games
+Other
+
+    Cheerleading
+
+Speedcubing
+
+    Speedcubing
+        2x2x2
+        3x3x3
+        4x4x4
+        5x5x5
+        6x6x6
+        7x7x7
+
+clock, megaminx, pyraminx, skewb, square 1, blindfolded 3x3, blindfold 4x4, blindfolded 5x5, one handed, fewest moves, multi blindfolded, feet solving.
+Strategy board games
+A game of mahjong being played in Hangzhou, China
+Main article: Board Games
+
+    Chess
+    Checkers
+    Chinese Checkers
+    Diplomacy
+    Dominoes
+    Draughts
+    Go
+    Go-Moku
+    Jacquet
+    Mancala
+    Mahjong
+    Sogo (Score four)
+    Stratego
+    Sudoku
+    Shogi
+    Xiangqi (Chinese chess)
+
+Competitive video games
+Main article: Electronic sports
+
+Although there is some disagreement, some consider playing competitive video games a mind sport and in some cases a team sport.
+
+    Dota 2
+    StarCraft II: Wings of Liberty
+    League of Legends
+    Counter-Strike
+    Hearthstone: Heroes of Warcraft
+
+Different classification
+
+    potentially other sports are listed here.
+
+Air sports
+
+    Banzai skydiving
+    Bungee jumping
+    Hot air ballooning
+
+Athletics (track and field)
+Pole vault
+
+    Steeplechase
+    Cross-Country
+    Jumping
+        Triple jump
+        Long jump
+        High jump
+        Pole vault
+    Throwing
+        Axe throwing
+        Discus
+        Hammer throw
+        Javelin
+        Atlatl
+        Shot put
+    Race Walking
+
+Electronic sports
+
+Sports played using electronic devices.
+
+    Combat robot
+    Radio-control vehicles
+    Geo caching
+    Contesting
+    Gaming (e-Sports)
+
+Endurance sports
+
+    Running
+    Swimming
+    Rowing
+    Wheelchair racing
+    Chariot Racing
+    Wood chopping
+    Cross-country skiing
+
+Skating sports
+
+    Aggressive inline skating
+    Artistic roller skating
+    Ice dancing
+    Ice skating
+    Inline speed skating
+    Figure skating
+    Rinkball
+    Rink hockey
+    Figure skating
+    Freestyle slalom skating
+    Roller derby
+    Roller skating
+    Short track speed skating
+    Skater hockey
+    Speed skating
+    Synchronized skating
+
+Snowsports
+A snowboarder and a skier
+A ski jumper using the V-style
+Freestyle skiing
+
+    Snowboarding
+    Ski flying
+    Skibob
+    Boardercross
+    Freestyle snowboarding
+    Snowshoeing
+    Skiboarding
+
+See #Skiing
+Strength sports
+
+Sports mainly based on sheer power.
+Arm Wrestling
+
+    Olympic weightlifting
+    Powerlifting
+    Arm Wrestling
+    Thumb wrestling
+    Toe wrestling
+    Tug-o-war
+    Wood chopping
+    Wood splitting
+    Zourkhaneh
+
+Tables sports
+
+    Air hockey
+    Backgammon
+    Beer Pong
+    Connect Four
+    Cue sports
+    Draughts (aka checkers)
+    Dominoes
+    Janggi
+    Mahjong (aka Taipei)
+    Reversi (aka Othello)
+    Shogi
+    Scrabble
+    Subbuteo
+    Table football
+    Table Tennis (aka Ping Pong)
+    Table hockey
+    Xiangqi
+
+Target sports
+
+Sports where the main objective is to hit a certain target.
+
+    Archery
+    Axe throwing
+    Calva
+    Croquet
+    Cue sports
+    Darts
+    Golf
+    Horseshoes (horseshoe throwing)
+    Knife throwing
+    Kubb
+    Lawn bowls
+    Matball
+    Pall mall
+    Pétanque
+    Shooting
+    Trugo
+    Skittles
+    Skee ball
+    Pitch and putt
+    Woodball
+
+Team sports
+
+Sports that involve teams.
+Match of Lacrosse
+Jack and Jill competition, Lumberjack World Championships, Hayward, Wisconsin, 2007.
+
+    Basketball family
+    Bat and ball games
+    Bowling
+    Basque pelota
+    Bunnock
+    Camogie
+    Football family
+    Gateball
+    Handball
+    Hockey family
+    Horseshoe
+    Kickball
+    Lacrosse
+    Mesoamerican ballgame
+    Muggle Quidditch[2]
+    Newcomb ball
+    Polo
+    Paintball
+    Sepak Takraw
+    Tennis Polo
+    Ultimate (sport)
+    Underwater football
+    Woodsman
+    Volleyball
+
+Windsports
+
+Sports which use the wind (apart from sailing):
+
+    Kite flying
+    parachuting
+    Hot Air Balloon Racing
+
+Fictional sports
+Main article: List of fictional games § Sports
+
+    Calvinball
+    Quidditch
+
+Miscellaneous sports
+Logrolling
+
+    Competitive eating
+    Egg and spoon race
+    Extreme ironing
+    Footbag (hacky sack)
+    Haggis hurling
+    Lumberjack sports
+        Aizkolaritza
+        Axe throwing
+        Logrolling
+        Wood chopping
+        Wood splitting
+    Patball
+    Ringette
+    Sack race
+    Soap shoes
+    Tennikoit
+    Tetherball
+    Three-legged race
+    Wallball 
+
+    
