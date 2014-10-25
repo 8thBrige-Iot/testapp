@@ -1,4 +1,4 @@
-{"BERLIN":
+﻿{"BERLIN":
     [
         {"1SPANDAU": "Lat52.539455/Lon13.179936/1SPANDAU/2Kladow/2Gatow/2Wilhelmstadt/2Staaken/2Spandau/2Falkenhagener Feld/2Hakenfelde/2Haselhorst/2Siemenstadt"},
         {"1CHARLOTTENBURG-WILMERSDORF": "Lat52.505574/Lon13.270520/1CHARLOTTENBURG-WILMERSDORF/2Grunewald/2Westend/Charlottenburg-Nord/2Charlottenburg/2Halensee/2Schmargendorf/2Wilmersdorf"},
@@ -71,7 +71,7 @@
         {"2Französisch Buchholz": "Lat52.610076/Lon13.432493/1PANKOW/Französisch Buchholz"},
         {"2Rosenthal": "Lat52.596665/Lon13.387147/1PANKOW/2Rosenthal"},
         {"2Wilhelmsruh": "Lat52.587524/Lon13.364359/1PANKOW/2Wilhelmsruh"},
-        {"2Niederschönhausen": "52.582775/Lon13.397741/1PANKOW/2Niederschönhausen"},
+        {"2Niederschönhausen": "Lat52.582775/Lon13.397741/1PANKOW/2Niederschönhausen"},
         {"2Blankenburg": "Lat52.593826/Lon13.455101/1PANKOW/2Blankenburg"},
         {"2Stadtrandsiedlung Malchow": "Lat52.576285/Lon13.469074/1PANKOW/2Stadtrandsiedlung Malchow"},
         {"2Heinersdorf": "Lat52.570691/Lon13.440793/1PANKOW/2Heinersdorf"},
@@ -104,7 +104,7 @@
         {"2Johannisthal": "LatLat52.444136/Lon13.503860/1TREPTOW-KÖPENICK/2Johannisthal"},
         {"2Niederschöneweide": "Lat52.451091/lon13.521846/1TREPTOW-KÖPENICK/2Niederschöneweide"},
         {"2Oberschöneweide": "Lat52.455317/13.471234/1TREPTOW-KÖPENICK/2Oberschöneweide"},
-        {"2Baumschulenweg": "1TREPTOW-KÖPENICK/2Baumschulenweg"},
+        {"2Baumschulenweg": "Lat52.462221/Lon13.481190/1TREPTOW-KÖPENICK/2Baumschulenweg"},
         {"2Plänterwald": "Lat52.478553/Lon13.478277/1TREPTOW-KÖPENICK/2Plänterwald"},
         {"2Alt-Teptow": "Lat52.491884/lon13.454675/1TREPTOW-KÖPENICK/2Alt-Teptow"}
     ]
