@@ -1,7 +1,12 @@
 To start:
 
-npm install -g nodemon
-Set environment variable COOKIE_SECRET to something
+  npm install -g nodemon
+
+Set environment variables:
+
+- ```COOKIE_SECRET``` to something
+- ```CONNECTION_STRING``` to an ArangoDB, e.g. ```http://myarangodb.server.com:8529```
+
 nodemon server.js
 
 
