@@ -4,18 +4,16 @@
   "dependencies": {
     "arangojs": {
       "version": "2.0.2",
-      "from": "arangojs@",
+      "from": "https://registry.npmjs.org/arangojs/-/arangojs-2.0.2.tgz",
       "resolved": "https://registry.npmjs.org/arangojs/-/arangojs-2.0.2.tgz",
       "dependencies": {
         "micropromise": {
           "version": "0.3.5",
           "from": "micropromise@~0.3.0",
-          "resolved": "https://registry.npmjs.org/micropromise/-/micropromise-0.3.5.tgz",
           "dependencies": {
             "microtask": {
               "version": "0.1.6",
-              "from": "microtask@*",
-              "resolved": "https://registry.npmjs.org/microtask/-/microtask-0.1.6.tgz"
+              "from": "microtask@*"
             }
           }
         },
@@ -646,6 +644,18 @@
         "utils-merge": {
           "version": "1.0.0",
           "from": "utils-merge@1.0.0"
+        }
+      }
+    },
+    "micropromise": {
+      "version": "0.4.6",
+      "from": "micropromise@",
+      "resolved": "https://registry.npmjs.org/micropromise/-/micropromise-0.4.6.tgz",
+      "dependencies": {
+        "microtask": {
+          "version": "0.1.6",
+          "from": "microtask@0.1.6",
+          "resolved": "https://registry.npmjs.org/microtask/-/microtask-0.1.6.tgz"
         }
       }
     },
