@@ -20,11 +20,9 @@ var districts = {};
 var selection;
 
 //                       "x", "y"
-var transform = function(lon, lat, isLarge) {
+var transform = function(lon, lat, radius) {
   var r = (p0.lon - p1.lon) / (p0.x - p1.x);
   var s = (p0.lat - p1.lat) / (p0.y - p1.y);
-
-  var radius = isLarge ? 20 : 10;
 
   return { // -(10, 10) because of circle radius = 10
     x: (lon - p0.lon) / r + p0.x - radius,
@@ -46,40 +44,56 @@ var applySelection = function(districtName) {
 var selectionUpdate = function(delta) {
   var n = parseInt($('input').val()) + delta;
   if (n  > 0) $('input').val(n);
+  var rpcFunc = delta > 0 ? 'increment_people' : 'decrement_people';
+  $.ajax({
+    type: 'POST',
+    url: '/api/districts/' + selection + '/' + rpcFunc
+  }).done(function() {
+    alert('success!!')
+  }).fail(function() {
+    console.log('error!!');
+  });
 }
 
-$.getJSON('/api/districts', function(ds) {
-  _.each(ds, function(d) {
-    districts[d.name] = d;
-  });
-  console.log(districts);
-  applySelection(ds[0].name);
-  var $map = $('#map');
-  _.each(ds, function(d) {
-    if (d.lon && d.lat) {
-      var isLarge = d.name[0] == '1';
-      var p = transform(d.lon, d.lat, isLarge);
-      var className = 'marker ';
-      if (isLarge) {
-        className += 'large';
-
+var redraw = function() {
+  $.getJSON('/api/districts', function(ds) {
+    _.each(ds, function(d) {
+      districts[d.name] = d;
+    });
+    console.log(districts);
+    applySelection(ds[0].name);
+    var $map = $('#map');
+    _.each(ds, function(d) {
+      if (d.lon && d.lat) {
+        var isWholeDistrict = d.name[0] == '1';
+        var radius = 10;
+        if (d.people) radius = 10 + d.people;
+        var p = transform(d.lon, d.lat, radius);
+        var className = 'marker ';
+        if (isWholeDistrict) {
+          className += 'whole-district';
+        }
+        $map.append('<div class="' + className + '" data-district-name="' + d.name + '" title="' + d.name.slice(1) + '" style="position: absolute; margin-top: ' + p.y + 'px; margin-left: ' + p.x + 'px"></div>');
+      } else {
+        console.log('no coords for ', d.name);
       }
-      $map.append('<div class="' + className + '" data-district-name="' + d.name + '" title="' + d.name.slice(1) + '" style="position: absolute; margin-top: ' + p.y + 'px; margin-left: ' + p.x + 'px"></div>');
-    } else {
-      console.log('no coords for ', d.name);
-    }
-  });
+    });
 
-  $('.marker').click(function() {
-    var name = $(this).attr('data-district-name');
-    applySelection(name);
-  });
+    $('.marker').click(function() {
+      var name = $(this).attr('data-district-name');
+      applySelection(name);
+    });
 
-  $('#attend').click(function() {
-    selectionUpdate(+1);
-  });
+    $('#attend').click(function() {
+      selectionUpdate(+1);
+    });
 
-  $('#not-attend').click(function() {
-    selectionUpdate(-1);
+    $('#not-attend').click(function() {
+      selectionUpdate(-1);
+    });
   });
-});
+}
+
+redraw();
+
+
