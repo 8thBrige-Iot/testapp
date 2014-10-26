@@ -3,8 +3,10 @@
   <head>
     <meta charset="utf-8"> 
     <link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css' rel='stylesheet' type='text/css'>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
     <script src="/js/main.js"></script>
     <style>
 /* http://goo.gl/xw7NGa */
@@ -38,7 +40,7 @@ body {
   background: #f7f7f7;
   border-radius: 4px;
   height: 266px;
-  margin: 0 0 0 944px;
+  margin: 0;
   padding: 0 14px;
   position: absolute;
   width: 476px;
@@ -54,10 +56,22 @@ body {
   border-radius: 4px;
   padding: 10px 14px;
 }
+
+#patch {
+  background: #f7f7f7;
+  border-radius: 4px;
+  height: 266px;
+  margin: 0 0 0 944px;
+  padding: 0 14px;
+  position: absolute;
+  width: 476px;
+  z-index: 15;
+}
     </style>
   </head>
   <body>
     <div id="map">
+      <div id="patch"></div>
       <div id="info">
         <h2 id="selection-title">Value</h2>
         <div id="info-panel">
