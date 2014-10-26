@@ -75,7 +75,16 @@ var redraw = function() {
       if (d.lon && d.lat) {
         var isWholeDistrict = d.name[0] == '1';
         var radius = 10;
-        if (d.people) radius = 10 + d.people * d.people;
+        var extraRadius = 0;
+        if (isWholeDistrict) {
+          _.each(d.subDistricts, function(subDistrictName) {
+            var sd = districts[subDistrictName];
+            if (sd && sd.people) extraRadius += sd.people;
+          });
+        } else if (d.people) {
+          extraRadius += d.people;
+        }
+        radius += extraRadius * extraRadius;
         var p = transform(d.lon, d.lat, radius);
         var className = 'marker ';
         if (isWholeDistrict) {
@@ -89,7 +98,7 @@ var redraw = function() {
       }
     });
 
-    $('.marker').click(function() {
+    $('.sub-district').click(function() {
       var name = $(this).attr('data-district-name');
       applySelection(name);
     });
