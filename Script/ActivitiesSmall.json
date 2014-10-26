@@ -1,0 +1,33 @@
+{"MEETUP":
+    [
+        {"1WALKING": "1WALKING/Walking/2Hiking/2Backpacking (wilderness)/2Race Walking"},
+        {"2Walking": "1WALKING/2Walking"},
+        {"2Hiking": "1WALKING/2Hiking"},
+        {"2Backpacking (wilderness)": "1WALKING/2Backpacking (wilderness)"},
+        {"2 Walking": "1WALKING/2Race Walking"},
+        {"1FOOTBALL FAMILY": "1FOOTBALL FAMILY/2Football/2Paralympic football/2Beach football"},
+        {"2Football": "1FOOTBALL FAMILY/2Football"},
+        {"2Paralympic football": "1FOOTBALL FAMILY/2Paralympic football"},
+        {"2Street football": "1FOOTBALL FAMILY/2Street football"},
+        {"2Beach football": "1FOOTBALL FAMILY/2Beach football"},
+        {"1HOCKEY FAMILY": "1HOCKEY FAMILY/2Hockey/2Field Hockey/2Ice hockey/2Street hockey/2Underwater hockey"},
+        {"2Hockey": "1HOCKEY FAMILY/2Hockey"},
+        {"2Field Hockey": "1HOCKEY FAMILY/2Field Hockey"},
+        {"2Ice hockey": "1HOCKEY FAMILY/2Ice hockey"},
+        {"2Street hockey": "1HOCKEY FAMILY/2Street hockey"},
+        {"2Underwater hockey": "1HOCKEY FAMILY/2Underwater hockey"},
+        {"1FISHING": "FISHING/2Rock fishing22Sport fishing/2Big-game fishing/2Big-game fishing/2Casting"},
+        {"2Rock fishing": "1FISHING/2Rock fishing"},
+        {"2Sport fishing": "1FISHING/2Sport fishing"},
+        {"Big-game fishing": "1FISHING/2Big-game fishing"},
+        {"2Big-game fishing": "1FISHING/2Big-game fishing"},
+        {"Casting": "1FISHING/2Casting"},
+        {"1DANCE": "1DANCE/2Blues/2Electronic/2Hip Hop/2Jazz"},
+        {"2Blues": "1DANCE/2Blues"},
+        {"2Electronic": "1DANCE/2Electronic"},
+        {"2Hip Hop": "1DANCE/2Hip Hop"},
+        {"2Jazz": "1DANCE/2Jazz"}
+    ]
+}
+
+
