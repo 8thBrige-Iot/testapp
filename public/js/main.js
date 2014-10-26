@@ -41,12 +41,12 @@ var applySelection = function(districtName) {
   }
   $('#selection-title').text(text);
   var people = d.people || 0;
-  $('input').val(people);
+  $('#number-people').text(people);
 };
 
 var selectionUpdate = function(delta) {
-  var n = parseInt($('input').val()) + delta;
-  if (n  > 0) $('input').val(n);
+  var n = parseInt($('#number-people').text()) + delta;
+  if (n  > 0) $('#number-people').text(n);
   var rpcFunc = delta > 0 ? 'increment_people' : 'decrement_people';
   toastr.info('Submitting, please wait...');
   $.ajax({
@@ -61,8 +61,8 @@ var selectionUpdate = function(delta) {
 }
 
 var redraw = function() {
-  $('.marker').remove();
   $.getJSON('/api/districts', function(ds) {
+    $('.marker').remove();
     _.each(ds, function(d) {
       districts[d.name] = d;
     });
@@ -79,7 +79,7 @@ var redraw = function() {
         if (isWholeDistrict) {
           className += 'whole-district';
         }
-        $map.append('<div class="' + className + '" data-district-name="' + d.name + '" title="' + d.name.slice(1) + '" style="position: absolute; margin-top: ' + p.y + 'px; margin-left: ' + p.x + 'px; height: ' + 2*radius + 'px; width: ' + 2*radius + 'px"></div>');
+        $map.append('<div class="' + className + '" data-district-name="' + d.name + '" data-radius="' + radius + '" title="' + d.name.slice(1) + '" style="position: absolute; margin-top: ' + p.y + 'px; margin-left: ' + p.x + 'px; height: ' + 2*radius + 'px; width: ' + 2*radius + 'px"></div>');
       } else {
         console.log('no coords for ', d.name);
       }
@@ -103,5 +103,7 @@ var redraw = function() {
 }
 
 redraw();
+
+setInterval(redraw.bind(this), 5000);
 
 
