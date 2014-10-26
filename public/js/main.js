@@ -46,18 +46,20 @@ var applySelection = function(districtName) {
 
 var selectionUpdate = function(delta) {
   var n = parseInt($('#number-people').text()) + delta;
-  if (n  > 0) $('#number-people').text(n);
-  var rpcFunc = delta > 0 ? 'increment_people' : 'decrement_people';
-  toastr.info('Submitting, please wait...');
-  $.ajax({
-    type: 'POST',
-    url: '/api/districts/' + selection + '/' + rpcFunc
-  }).done(function() {
-    redraw();
-    toastr.info('Updated!');
-  }).fail(function() {
-    toastr.error('Updated!');
-  });
+  if (n  > 0) {
+    $('#number-people').text(n);
+    var rpcFunc = delta > 0 ? 'increment_people' : 'decrement_people';
+    toastr.info('Submitting, please wait...');
+    $.ajax({
+      type: 'POST',
+      url: '/api/districts/' + selection + '/' + rpcFunc
+    }).done(function() {
+      redraw();
+      toastr.info('Updated!');
+    }).fail(function() {
+      toastr.error('Updated!');
+    });
+  }
 }
 
 var redraw = function() {
@@ -73,11 +75,22 @@ var redraw = function() {
       if (d.lon && d.lat) {
         var isWholeDistrict = d.name[0] == '1';
         var radius = 10;
-        if (d.people) radius = 10 + d.people * d.people;
+        var extraRadius = 0;
+        if (isWholeDistrict) {
+          _.each(d.subDistricts, function(subDistrictName) {
+            var sd = districts[subDistrictName];
+            if (sd && sd.people) extraRadius += sd.people;
+          });
+        } else if (d.people) {
+          extraRadius += d.people;
+        }
+        radius += extraRadius * extraRadius;
         var p = transform(d.lon, d.lat, radius);
         var className = 'marker ';
         if (isWholeDistrict) {
           className += 'whole-district';
+        } else {
+          className += 'sub-district';
         }
         $map.append('<div class="' + className + '" data-district-name="' + d.name + '" data-radius="' + radius + '" title="' + d.name.slice(1) + '" style="position: absolute; margin-top: ' + p.y + 'px; margin-left: ' + p.x + 'px; height: ' + 2*radius + 'px; width: ' + 2*radius + 'px"></div>');
       } else {
@@ -85,7 +98,7 @@ var redraw = function() {
       }
     });
 
-    $('.marker').click(function() {
+    $('.sub-district').click(function() {
       var name = $(this).attr('data-district-name');
       applySelection(name);
     });
