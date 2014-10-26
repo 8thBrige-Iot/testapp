@@ -64,18 +64,14 @@ app.get('/api/districts', function(req, res) {
   });
 });
 
-var districtsUpdatePeople = function(districtId, delta) {
-  console.log('a');
+var districtsUpdatePeople = function(districtName, delta) {
   var p = Promise();
   districts().done(function(ds) {
-    console.log('b');
     for (var i = 0; i < ds.length; i++) {
       var d = ds[i];
       if (d.name === districtName) {
         if (!d.people) d.people = 0;
-        d.people++;
-        //d._id
-        console.log('c');
+        d.people += delta;
         db.document.patch(d._id, {people: d.people}).done(function() {
           console.log('patch successful!')
           p.resolve({});
@@ -83,7 +79,6 @@ var districtsUpdatePeople = function(districtId, delta) {
         .catch(function() {
           console.log('patch failed!!!');
         });
-        console.log('d');
       }
     }
     var msg = 'could not find ' + districtName;
@@ -96,9 +91,6 @@ var districtsUpdatePeople = function(districtId, delta) {
 app.post('/api/districts/:district_name/decrement_people', function(req, res) {
   districtsUpdatePeople(req.params.district_name, -1).done(function() {
     res.status(200).end();
-  })
-  .catch(function() {
-    res.status(500).end();
   });
 });
 
