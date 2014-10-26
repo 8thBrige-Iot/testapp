@@ -13,6 +13,7 @@
     "express": "4.x",
     "querystring": "*",
     "underscore": "*",
+    "micropromise": "*",
     "morgan": "*",
     "negotiator": "*",
     "nodemailer": "*",

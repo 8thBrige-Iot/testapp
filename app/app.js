@@ -5,6 +5,7 @@ var cookieSession = require('cookie-session');
 var districts = require('../Script/BerlinDistricts.json');
 var express = require("express");
 var morgan = require('morgan');
+var Promise = require('micropromise');
 var _ = require("underscore");
 
 
@@ -36,22 +37,74 @@ app.get('/api/collections', function(req, res) {
   console.log('c');
 });
 
-app.get('/api/districts', function(req, res) {
+var districts = function () {
+  var p = Promise();
   db.collection.get("districts").done(function(coll) {
     console.log('fetched districts collection');
     db.document.list(coll.id).done(function(data) {
       console.log('fetched ', coll.id)
       var promises = _.map(data.documents, function(docUri) {
         var docId = docUri.slice('/_api/document/'.length);
-        console.log('docId: ', docId);
+        //console.log('docId: ', docId);
         return db.document.get(docId);
       });
       console.log('now joining:');
       promises[0].join(promises.slice(1)).done(function(dbRes) {
         console.log('joined...');
-        res.status(200).json(dbRes);
+        p.resolve(dbRes);
       });
     });
+  });
+  return p;
+};
+
+app.get('/api/districts', function(req, res) {
+  districts().done(function(ds) {
+    res.status(200).json(ds);
+  });
+});
+
+var districtsUpdatePeople = function(districtId, delta) {
+  console.log('a');
+  var p = Promise();
+  districts().done(function(ds) {
+    console.log('b');
+    for (var i = 0; i < ds.length; i++) {
+      var d = ds[i];
+      if (d.name === districtName) {
+        if (!d.people) d.people = 0;
+        d.people++;
+        //d._id
+        console.log('c');
+        db.document.patch(d._id, {people: d.people}).done(function() {
+          console.log('patch successful!')
+          p.resolve({});
+        })
+        .catch(function() {
+          console.log('patch failed!!!');
+        });
+        console.log('d');
+      }
+    }
+    var msg = 'could not find ' + districtName;
+    console.log(msg);
+    p.reject(msg);
+  });
+  return p;
+};
+
+app.post('/api/districts/:district_name/decrement_people', function(req, res) {
+  districtsUpdatePeople(req.params.district_name, -1).done(function() {
+    res.status(200).end();
+  })
+  .catch(function() {
+    res.status(500).end();
+  });
+});
+
+app.post('/api/districts/:district_name/increment_people', function(req, res) {
+  districtsUpdatePeople(req.params.district_name, +1).done(function() {
+    res.status(200).end();
   });
 });
 
