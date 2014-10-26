@@ -13,7 +13,7 @@ body {
 
 #map {
   background: url(/images/berlin.svg);
-  width: 1400px;
+  width: 1450px;
   height: 1000px;
 }
 
@@ -36,20 +36,42 @@ body {
   background: #f7f7f7;
   border-radius: 4px;
   height: 266px;
-  margin: 17px 0 0 899px;
+  margin: 0 0 0 944px;
+  padding: 0 14px;
   position: absolute;
   width: 476px;
+  z-index: 20;
+}
+
+#info h2 {
+  margin-left: 14px ;
+}
+
+#info-panel {
+  background: white;
+  border-radius: 4px;
+  padding: 10px 14px;
 }
     </style>
   </head>
   <body>
     <div id="map">
       <div id="info">
-        <h2>Value</h2>
-        <input type="number" min="0" value="0">
+        <h2 id="selection-title">Value</h2>
+        <div id="info-panel">
+          <p>People:</p>
+          <input type="number" min="0" value="0">
+          <p>
+            <button id="attend">Attend</button>
+            <button id="not-attend">Not Attend</button>
+          </p>
+          <p>Activity:</p>
+          <select>
+            <option>Football</option>
+          </select>
+        </div>
       </div>
     </div>
-    <div id="districts"></div>
   </body>
 </html>
 
